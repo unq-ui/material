@@ -1,2 +1,3 @@
-# material
-Material para la cursada de la materia Construcción de Interfaces de Usuario de UNQ
+# Construcción de Interfaces de Usuario
+
+## Material de Cursada
