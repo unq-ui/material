@@ -1,5 +1,9 @@
 # Ejercicios para practicar Arena
 
+## Vm arguments
+
+`-Djava.system.class.loader=org.uqbar.apo.APOClassLoader`
+
 ## Ejercicio 1
 
 Hacer una ventana que contenga
