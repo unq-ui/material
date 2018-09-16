@@ -112,7 +112,5 @@ class TvSeriesWindow extends SimpleWindow<TvSeriesAppModel>{
 			]
 		]
 	}
-	def static void main(String[] args) {
-		new TvSeriesWindow().start()
-}
+	
 }
