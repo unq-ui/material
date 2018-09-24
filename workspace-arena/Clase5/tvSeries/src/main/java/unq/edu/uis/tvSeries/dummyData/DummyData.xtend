@@ -14,14 +14,17 @@ class DummyData {
 	}
 	
 	def Serie breakingBad (){
-		new Serie =>[
+		val serie = new Serie =>[
+			id = 1
 			nombre = "Breaking Bad"
 			temporadas = 5
-			actores = actoresBreakingBad
 		]
+		 serie.actores = actoresBreakingBad(serie)
+		 return serie
 	}
 	def Serie gameOfThrones (){
 		new Serie =>[
+			id = 2
 			nombre = "Game of Thrones"
 			temporadas = 7
 			actores = actoresGameOfThrones
@@ -29,17 +32,25 @@ class DummyData {
 	}
 	def Serie vikings (){
 		new Serie =>[
+			id = 3
 			nombre = "Vikings"
 			temporadas = 5
 			actores = actoresVikings
 		]
 	}
-	def actoresBreakingBad(){
-		newArrayList =>[
-			add(crearActor("Bryan Cranston","Walter White"))
-			add(crearActor("Aaron Paul","Jesse Pinkman"))
-			add(crearActor("Bob Odenkirk","Saul Goodman"))
+	def actoresBreakingBad(Serie serie){
+		val actor1 = crearActor("Bryan Cranston","Walter White")
+		actor1.agregarSerie(serie)
+		val actor2 =crearActor("Aaron Paul","Jesse Pinkman")
+		actor2.agregarSerie(serie)
+		val actor3 =crearActor("Bob Odenkirk","Saul Goodman")
+		actor3.agregarSerie(serie)
+		return newArrayList =>[
+			add(actor1)
+			add(actor2)
+			add(actor3)
 		]
+		
 	}
 	def actoresGameOfThrones(){
 		newArrayList =>[

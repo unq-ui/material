@@ -7,8 +7,11 @@ import org.uqbar.commons.model.annotations.Observable
 @Accessors
 @Observable
 class Serie {
+	int id
 	String nombre
 	int temporadas
+	
+	
 	List<Actor> actores
 	
 	new() { 
