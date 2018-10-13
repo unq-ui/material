@@ -1,0 +1,42 @@
+
+.imageCard {
+  width: 348px;
+  height: 542px;
+}
+
+@media screen and (max-width: 1200px) {
+  .imageCard {
+    width: auto;
+    height: auto;
+  }
+}
+
+.badgeMargin {
+  margin-right: 3%
+}
+
+.fixedAdd {
+  position: fixed;
+  right: 15%;
+  bottom: 10%;
+  z-index: 1030;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
