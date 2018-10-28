@@ -1,0 +1,202 @@
+[
+  {
+    "email": "_95@example.com",
+    "password": "JoséLuisGallardo95^",
+    "profile": {
+      "name": "José Luis Gallardo",
+      "image": "https://uinames.com/api/photos/male/11.jpg"
+    }
+  },
+  {
+    "email": "guillermo-85@example.com",
+    "password": "Calvo85{",
+    "profile": {
+      "name": "Guillermo Calvo",
+      "image": "https://uinames.com/api/photos/male/15.jpg"
+    }
+  },
+  {
+    "email": "gregorio86@example.com",
+    "password": "Vicente86+(",
+    "profile": {
+      "name": "Gregorio Vicente",
+      "image": "https://uinames.com/api/photos/male/14.jpg"
+    }
+  },
+  {
+    "email": "virginia94@example.com",
+    "password": "Torres94^$",
+    "profile": {
+      "name": "Virginia Torres",
+      "image": "https://uinames.com/api/photos/female/7.jpg"
+    }
+  },
+  {
+    "email": "raúl-91@example.com",
+    "password": "Jiménez91@^",
+    "profile": {
+      "name": "Raúl Jiménez",
+      "image": "https://uinames.com/api/photos/male/14.jpg"
+    }
+  },
+  {
+    "email": "mercedes94@example.com",
+    "password": "Cabrera94+)",
+    "profile": {
+      "name": "Mercedes Cabrera",
+      "image": "https://uinames.com/api/photos/female/10.jpg"
+    }
+  },
+  {
+    "email": "andrés-93@example.com",
+    "password": "Hidalgo93{}",
+    "profile": {
+      "name": "Andrés Hidalgo",
+      "image": "https://uinames.com/api/photos/male/1.jpg"
+    }
+  },
+  {
+    "email": "andrés85@example.com",
+    "password": "Márquez85+^",
+    "profile": {
+      "name": "Andrés Márquez",
+      "image": "https://uinames.com/api/photos/male/9.jpg"
+    }
+  },
+  {
+    "email": "francisco_93@example.com",
+    "password": "Hernández93@}",
+    "profile": {
+      "name": "Francisco Hernández",
+      "image": "https://uinames.com/api/photos/male/3.jpg"
+    }
+  },
+  {
+    "email": "alfonso-91@example.com",
+    "password": "Moreno91)~",
+    "profile": {
+      "name": "Alfonso Moreno",
+      "image": "https://uinames.com/api/photos/male/15.jpg"
+    }
+  },
+  {
+    "email": "javier_90@example.com",
+    "password": "Núñez90))",
+    "profile": {
+      "name": "Javier Núñez",
+      "image": "https://uinames.com/api/photos/male/17.jpg"
+    }
+  },
+  {
+    "email": "antonia86@example.com",
+    "password": "Domínguez86}(",
+    "profile": {
+      "name": "Antonia Domínguez",
+      "image": "https://uinames.com/api/photos/female/25.jpg"
+    }
+  },
+  {
+    "email": "cristian93@example.com",
+    "password": "Ruiz93+)",
+    "profile": {
+      "name": "Cristian Ruiz",
+      "image": "https://uinames.com/api/photos/male/2.jpg"
+    }
+  },
+  {
+    "email": "-88@example.com",
+    "password": "JoséManuelCaballero88{%",
+    "profile": {
+      "name": "José Manuel Caballero",
+      "image": "https://uinames.com/api/photos/male/7.jpg"
+    }
+  },
+  {
+    "email": "julio_prieto@example.com",
+    "password": "Prieto97~*",
+    "profile": {
+      "name": "Julio Prieto",
+      "image": "https://uinames.com/api/photos/male/7.jpg"
+    }
+  },
+  {
+    "email": "juan-díaz@example.com",
+    "password": "Díaz97_%",
+    "profile": {
+      "name": "Juan Díaz",
+      "image": "https://uinames.com/api/photos/male/8.jpg"
+    }
+  },
+  {
+    "email": "86@example.com",
+    "password": "JuanFranciscoVargas86+@",
+    "profile": {
+      "name": "Juan Francisco Vargas",
+      "image": "https://uinames.com/api/photos/male/13.jpg"
+    }
+  },
+  {
+    "email": "mónica86@example.com",
+    "password": "González86(+",
+    "profile": {
+      "name": "Mónica González",
+      "image": "https://uinames.com/api/photos/female/7.jpg"
+    }
+  },
+  {
+    "email": "rafael-93@example.com",
+    "password": "Delgado93_&",
+    "profile": {
+      "name": "Rafael Delgado",
+      "image": "https://uinames.com/api/photos/male/8.jpg"
+    }
+  },
+  {
+    "email": "emilia-85@example.com",
+    "password": "Márquez85)~",
+    "profile": {
+      "name": "Emilia Márquez",
+      "image": "https://uinames.com/api/photos/female/6.jpg"
+    }
+  },
+  {
+    "email": "-94@example.com",
+    "password": "AnaBelénAguilar94}#",
+    "profile": {
+      "name": "Ana Belén Aguilar",
+      "image": "https://uinames.com/api/photos/female/24.jpg"
+    }
+  },
+  {
+    "email": "juana88@example.com",
+    "password": "Iglesias88&",
+    "profile": {
+      "name": "Juana Iglesias",
+      "image": "https://uinames.com/api/photos/female/3.jpg"
+    }
+  },
+  {
+    "email": "paulablanco@example.com",
+    "password": "Blanco92$=",
+    "profile": {
+      "name": "Paula Blanco",
+      "image": "https://uinames.com/api/photos/female/4.jpg"
+    }
+  },
+  {
+    "email": "85@example.com",
+    "password": "EvaMaríaRubio85##",
+    "profile": {
+      "name": "Eva María Rubio",
+      "image": "https://uinames.com/api/photos/female/14.jpg"
+    }
+  },
+  {
+    "email": "maría-86@example.com",
+    "password": "delMarGil86(+",
+    "profile": {
+      "name": "María del Mar Gil",
+      "image": "https://uinames.com/api/photos/female/5.jpg"
+    }
+  }
+]
