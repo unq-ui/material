@@ -1,4 +1,6 @@
-# Construcción de Interfaces de Usuario :: Material de Cursada
+# Construcción de Interfaces de Usuario
+
+# _Material de Cursada_
 
 ## Links útiles
 
