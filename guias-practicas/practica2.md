@@ -34,8 +34,19 @@ El usuario debe poder ingresar el operando 1 y operando 2 y luego 4 botones: Sum
 Al presionar cualquier de los botones, se debe realizar el calculo correspondiente a la operación utilizando los valores ingresados en cada operando.
 Nota: contemplar división por cero.
 
-## Ejercicio 3: Próximamente
+## Ejercicio 3: Nombre y Apellido
 
-## Ejercicio 4: Próximamente
+Escribir un programa que permita al usuario agregar su nombre y apellido, como se muestra a continuación. 
 
+![ej2](_img/ej3.png)
+![ej2](_img/ej3.1.png)
+![ej2](_img/ej3.2.png)
+
+Para poder agregar el nombre y el apellido, debe hacer click en el botón correspondiente, cada botón debe abrir un Dialog de Arena.
+
+## Ejercicio 4: Compañía
+
+Escribir un programa que permita realizar un listado de los clientes pertenecientes a una compañía. Para la resolución debe utilizar el componente Table de Arena.
+
+![ej4](_img/ej4.png)
 
