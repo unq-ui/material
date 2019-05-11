@@ -1,0 +1,195 @@
+{
+	"info": {
+		"_postman_id": "882b87f3-2826-40c4-822d-62d8f615faf6",
+		"name": "GeoApiClase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Home",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:7000",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"query": [
+						{
+							"key": "",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lugares",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:7000/lugares",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"lugares"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lugares ID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:7000/lugares/4",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"lugares",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lugares Add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Montevideo\",\n\t\"latitude\": -34.906450,\n\t\"longitude\": -56.199442\n}\n"
+				},
+				"url": {
+					"raw": "localhost:7000/lugares",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"lugares"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lugares UPDATE",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Montevideooooooo\",\n\t\"latitude\": -34.906450,\n\t\"longitude\": -56.199442\n}\n"
+				},
+				"url": {
+					"raw": "localhost:7000/lugares/4",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"lugares",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lugares DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:7000/lugares/4",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"lugares",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
