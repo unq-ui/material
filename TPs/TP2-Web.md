@@ -175,7 +175,7 @@ Respuesta:
             "name": "milanesa al plato",
             "amount": 2
           }, {
-            "name": "bebida cola 2.25L",,
+            "name": "bebida cola 2.25L",
             "amount": 1
           }
         ],
