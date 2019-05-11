@@ -15,12 +15,12 @@ La entrega de cada TP es en forma presencial. Ese día deben estar presentes tod
 
 ### Fechas de Entrega:
 
-* 25/04 - TP1
-* 06/06 - TP2
-* 27/06 - Taller Mobile
+* 02/05 >> TP1
+* 13/06 >> TP2
+* 11/07 >> Taller Mobile
 
 ## Enunciados
 
 * [TP1 >> Desktop](TP1-Desktop.md)
-* TP2 >> Web
+* [TP2 >> Web](TP2-Web.md)
 * Taller Mobile
