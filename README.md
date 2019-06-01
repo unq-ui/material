@@ -7,17 +7,14 @@
 * [Página de la materia](http://interfaces.web.unq.edu.ar/)
 * [Página de la materia en cuatrimestres anteriores](https://algo3.uqbar-project.org/)
 * [Kotlin by example](https://play.kotlinlang.org/byExample/overview)
+* [Javalin](https://javalin.io/)
+* [NodeJS](https://nodejs.org)
+* [ReactJS](https://reactjs.org)
 * [Ejemplos de .gitignore](https://github.com/github/gitignore)
 
-## Vm arguments para Arena
+## Domain >> Kotlin
 
-```
--Djava.system.class.loader=org.uqbar.apo.APOClassLoader
-```
-
-## Ejemplos de pom.xml para tener a mano
-
-### Sólo Dominio
+#### Ejemplo de pom.xml básico
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -28,7 +25,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ar.edu.unq.ui</groupId>
-    <artifactId>proyecto</artifactId>
+    <artifactId>mi-proyecto</artifactId>
     <version>1.0</version>
 
     <dependencies>
@@ -43,7 +40,15 @@
 </project>
 ```
 
-### Proyecto de Arena
+## Desktop >> Arena
+
+### Vm arguments
+
+```
+-Djava.system.class.loader=org.uqbar.apo.APOClassLoader
+```
+
+### Ejemplos de pom.xml básico
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -62,7 +67,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ar.edu.unq.ui</groupId>
-    <artifactId>proyecto-desktop</artifactId>
+    <artifactId>mi-proyecto-desktop</artifactId>
     <version>1.0</version>
 
     <parent>
@@ -72,6 +77,7 @@
     </parent>
 
     <dependencies>
+        <!-- Si necesita su proyecto de dominio lo agregan acá como dependencia -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -82,3 +88,59 @@
 
 </project>
 ```
+
+## Api REST >> Javalin
+
+### Ejemplo de pom.xml básico
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ar.edu.unq.ui</groupId>
+    <artifactId>mi-proyecto-api</artifactId>
+    <version>1.0</version>
+
+    <dependencies>
+        <!-- Si necesita su proyecto de dominio lo agregan acá como dependencia -->
+        <dependency>
+            <groupId>io.javalin</groupId>
+            <artifactId>javalin</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.26</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.8</version>
+        </dependency>
+    </dependencies>
+
+</project>
+```
+
+## Aplicación Web >> ReactJS
+
+Primero es necesario instalar node según su SO: https://nodejs.org/en/download/
+
+Una vez instalado node, ir al directorio donde va a estar el proyecto y ejecutar:
+
+```
+npx create-react-app mi-proyecto-web
+cd mi-proyecto-web
+npm start
+```
+
+Comandos _npm_ que vienen por default:
+
+* `npm start`: Levanta la aplicación en (generalmente) localhost:3000
+* `npm test`: Corre los tests (generalmente en modo _watcher_)
+* `npm build`: Construye la aplicación en _modo production_ y guarda los archivos en el directorio `./dist`
+* `npm eject`: Quita las configuraciones default de react. No se recomienda utilizarlo.
