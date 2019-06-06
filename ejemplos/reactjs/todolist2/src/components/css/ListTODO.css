@@ -1,0 +1,15 @@
+.aaa {
+  padding-top: 1rem;
+}
+
+.borderList {
+  border-bottom: 1;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-right-radius: 0!important;
+  border-bottom-left-radius: 0!important;
+}
+
+.first {
+  border-top: 0;
+}

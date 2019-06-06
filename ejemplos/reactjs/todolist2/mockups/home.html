@@ -1,0 +1,183 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+      .borderList {
+        border-bottom: 1;
+        border-left: 0;
+        border-right: 0;
+        border-bottom-right-radius: 0!important;
+        border-bottom-left-radius: 0!important;
+      }
+      .aaa {
+        padding-top: 1rem;
+      }
+      .small {
+        width: 50%;
+      }
+      .addTODO {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+      .buttonContainer {
+        padding: 1rem;
+      }
+      .first {
+        border-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+          <svg width="36" height="36" class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M16 8.5l-6 6-3-3L8.5 10l1.5 1.5L14.5 7 16 8.5zM5.7 12.2l.8.8H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h7c.55 0 1 .45 1 1v6.5l-.8-.8c-.39-.39-1.03-.39-1.42 0L5.7 10.8a.996.996 0 0 0 0 1.41v-.01zM4 4h5V3H4v1zm0 2h5V5H4v1zm0 2h3V7H4v1zM3 9H2v1h1V9zm0-2H2v1h1V7zm0-2H2v1h1V5zm0-2H2v1h1V3z">
+            </path>
+          </svg>
+        TODOList
+      </a>
+      <div class="text-right">
+        <div style="padding-right: 1rem">
+          <img class="rounded-circle small" src="https://pbs.twimg.com/profile_images/1064465168179085313/YgDr84RZ_bigger.jpg"
+          alt="">
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <!-- add component -->
+      <div class="addTODO">
+        <div class="row">
+          <div class="col-1 aaa text-right">
+            <img class="rounded-circle small" src="https://pbs.twimg.com/profile_images/1064465168179085313/YgDr84RZ_bigger.jpg"
+              alt="">
+          </div>
+          <div class="col-11">
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+        </div>
+        <div class="buttonContainer text-right">
+          <button type="button" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+
+        <!-- list -->
+        <div class="list-group">
+          <div class="list-group-item borderList first">
+            <div class="row">
+              <div class="col-1 aaa">
+                <img class="rounded-circle"
+                  src="https://pbs.twimg.com/profile_images/1064465168179085313/YgDr84RZ_bigger.jpg" alt="">
+              </div>
+              <div class="col-11">
+                <div class="row">
+                  <div class="col-11">
+                    <h6>UserName - Time</h6>
+                  </div>
+                  <div class="col-1">
+                    <!-- <img src="caret-down-solid.svg" width=20 height=20 alt="caretDown"> -->
+                    <div class="dropdown">
+                      <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button">Edit</button>
+                        <button class="dropdown-item" type="button">Delete</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  Pasando a la década de 1960, el Lorem Ipsum fue popularizado por el fabricante de tipografía Letraset, que lo utilizó en
+                  sus campañas publicitarias. Letraset ofrecía páginas de Lorem Ipsum como hojas de transferencia, que fueron ampliamente
+                  utilizadas en la era anterior a los ordenadores para los diseños. Estas páginas de transferencia, conocidas como
+                  Letraset Body Type, se incluyeron en la publicidad de la compañía y en su popular catálogo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="list-group-item borderList">
+            <div class="row">
+              <div class="col-1 aaa">
+                <img class="rounded-circle" src="https://pbs.twimg.com/profile_images/1064465168179085313/YgDr84RZ_bigger.jpg"
+                  alt="">
+              </div>
+              <div class="col-11">
+                <div class="row">
+                  <div class="col-11">
+                    <h6>UserName - Time</h6>
+                  </div>
+                  <div class="col-1">
+                    <!-- <img src="caret-down-solid.svg" width=20 height=20 alt="caretDown"> -->
+                    <div class="dropdown">
+                      <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button">Edit</button>
+                        <button class="dropdown-item" type="button">Delete</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  Pasando a la década de 1960, el Lorem Ipsum fue popularizado por el fabricante de tipografía Letraset, que lo
+                  utilizó en
+                  sus campañas publicitarias. Letraset ofrecía páginas de Lorem Ipsum como hojas de transferencia, que fueron
+                  ampliamente
+                  utilizadas en la era anterior a los ordenadores para los diseños. Estas páginas de transferencia, conocidas como
+                  Letraset Body Type, se incluyeron en la publicidad de la compañía y en su popular catálogo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="list-group-item borderList">
+            <div class="row">
+              <div class="col-1 aaa">
+                <img class="rounded-circle" src="https://pbs.twimg.com/profile_images/1064465168179085313/YgDr84RZ_bigger.jpg"
+                  alt="">
+              </div>
+              <div class="col-11">
+                <div class="row">
+                  <div class="col-11">
+                    <h6>UserName - Time</h6>
+                  </div>
+                  <div class="col-1">
+                    <!-- <img src="caret-down-solid.svg" width=20 height=20 alt="caretDown"> -->
+                    <div class="dropdown">
+                      <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button">Edit</button>
+                        <button class="dropdown-item" type="button">Delete</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  Pasando a la década de 1960, el Lorem Ipsum fue popularizado por el fabricante de tipografía Letraset, que lo
+                  utilizó en
+                  sus campañas publicitarias. Letraset ofrecía páginas de Lorem Ipsum como hojas de transferencia, que fueron
+                  ampliamente
+                  utilizadas en la era anterior a los ordenadores para los diseños. Estas páginas de transferencia, conocidas como
+                  Letraset Body Type, se incluyeron en la publicidad de la compañía y en su popular catálogo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
