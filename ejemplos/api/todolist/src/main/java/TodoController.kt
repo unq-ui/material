@@ -16,13 +16,13 @@ class TodoController(val users: MutableList<User>) {
 
     fun getAll(ctx: Context) {
         val user = getUser(ctx.pathParam("userid"))
-        ctx.json(UserJson(user.id, user.profile.username, user.profile.imageLink, user.todos.map { TodoJson(it.id, it.date.toString(), it.description)}))
+        ctx.json(UserJson(user.id, user.profile.username, user.profile.imageLink, user.todos.map { TodoJson(it.id, it.date.toString(), it.title, it.description)}))
     }
 
     fun addNewTodo(ctx: Context) {
         val user = getUser(ctx.pathParam("userid"))
         val newTodo = ctx.body<NewTodo>()
-        user.todos.add(Todo(UUID.randomUUID().toString(), LocalDateTime.now(), newTodo.description))
+        user.todos.add(Todo(UUID.randomUUID().toString(), LocalDateTime.now(), newTodo.title, newTodo.description))
         ctx.header("Access-Control-Allow-Origin", "*")
         ctx.json("Agregado")
     }
@@ -32,7 +32,7 @@ class TodoController(val users: MutableList<User>) {
         val user = getUser(ctx.pathParam("userid"))
         val todo = getTodo(user, ctx.pathParam("id"))
         user.todos.remove(todo)
-        user.todos.add(Todo(todo.id, todo.date, updateTodo.description))
+        user.todos.add(Todo(todo.id, LocalDateTime.now(), updateTodo.title, updateTodo.description))
         ctx.json("Actualizado")
     }
 
@@ -40,7 +40,7 @@ class TodoController(val users: MutableList<User>) {
         val user = getUser(ctx.pathParam("userid"))
         val todo = getTodo(user, ctx.pathParam("id"))
         user.todos.remove(todo)
-        ctx.json("Borrado")
+        ctx.json(user)
     }
 
     fun login(ctx: Context) {
