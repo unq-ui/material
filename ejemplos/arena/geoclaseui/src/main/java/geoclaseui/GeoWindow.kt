@@ -5,37 +5,36 @@ import org.uqbar.arena.widgets.Label
 import org.uqbar.arena.widgets.Panel
 import org.uqbar.arena.widgets.TextBox
 import org.uqbar.arena.windows.MainWindow
-import org.uqbar.lacar.ui.model.ControlBuilder
+import org.uqbar.arena.kotlin.extensions.*
+
+fun main() = GeoWindow(GeoModel()).startApplication()
 
 class GeoWindow(model: GeoModel) : MainWindow<GeoModel>(model) {
 
     override fun createContents(panel: Panel) {
         title = "Calculador de Distancias"
 
-        Label(panel)
-                .setText("Coordenadas Desde")
-                .alignLeft()
-        TextBox(panel)
-                .bindValueToProperty<Int, ControlBuilder>("latFrom")
-        TextBox(panel)
-                .bindValueToProperty<Double, ControlBuilder>("longFrom")
+        Label(panel) with {
+            text = "Coordenadas Desde"
+            align = "left"
+        }
 
-        Label(panel)
-                .setText("Coordenadas Para")
-                .alignLeft()
-        TextBox(panel)
-                .bindValueToProperty<Double, ControlBuilder>("latTo")
-        TextBox(panel)
-                .bindValueToProperty<Double, ControlBuilder>("longTo")
+        TextBox(panel) bindTo "latFrom"
+        TextBox(panel) bindTo "longFrom"
 
-        Button(panel)
-                .setCaption("Calcular Distancia")
-                .onClick { calculate() }
-        Label(panel)
-                .bindValueToProperty<String, ControlBuilder>("result")
-    }
+        Label(panel) with {
+            text = "Coordenadas Para"
+            align = "left"
+        }
 
-    private fun calculate() {
-        modelObject.getDistance()
+        TextBox(panel) bindTo "latTo"
+        TextBox(panel) bindTo "longTo"
+
+        Button(panel) with {
+            caption = "Calcular Distancia"
+            onClick { modelObject.getDistance() }
+        }
+
+        Label(panel) bindTo "result"
     }
 }

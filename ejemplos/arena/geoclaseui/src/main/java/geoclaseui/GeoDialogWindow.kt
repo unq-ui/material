@@ -7,83 +7,84 @@ import org.uqbar.arena.widgets.TextBox
 import org.uqbar.arena.windows.Dialog
 import org.uqbar.arena.windows.MainWindow
 import org.uqbar.arena.windows.WindowOwner
-import org.uqbar.arena.layout.ColumnLayout
-import org.uqbar.arena.layout.VerticalLayout
-import org.uqbar.arena.layout.HorizontalLayout
-import org.uqbar.lacar.ui.model.ControlBuilder
+import org.uqbar.arena.kotlin.extensions.*
 
+fun main() = GeoDialogWindow(GeoModel()).startApplication()
+
+/**
+ * Main Window
+ */
 class GeoDialogWindow(model: GeoModel) : MainWindow<GeoModel>(model) {
-
     override fun createContents(mainPanel: Panel) {
         title = "Calculador de Distancias"
 
-        mainPanel.setLayout(VerticalLayout()) // no hace falta, es el comportamiento por default
+        mainPanel.asVertical()
 
-        coordinatesPanel(mainPanel, mapOf(
-                "title" to "Coordenadas Desde",
-                "bindLat" to "latFrom",
-                "bindLong" to "longFrom"
-        ))
-        coordinatesPanel(mainPanel, mapOf(
-                "title" to "Coordenadas Hasta",
-                "bindLat" to "latTo",
-                "bindLong" to "longTo"
-        ))
+        Label(mainPanel) with { text = "Coordenadas Desde" }
+        Panel(mainPanel) with {
+            asColumns(2)
+            labeledCoordinate(it, "Latitude", "latFrom")
+            labeledCoordinate(it, "Longitude", "longFrom")
+        }
 
-        actionsPanel(mainPanel)
+        Label(mainPanel) with { text = "Coordenadas Hasta" }
+        Panel(mainPanel) with {
+            asColumns(2)
+            labeledCoordinate(it, "Latitude", "latTo")
+            labeledCoordinate(it, "Longitude", "longTo")
+        }
+
+        Panel(mainPanel) with {
+            asHorizontal()
+            Button(it) with {
+                width = 165
+                caption = "Calcular"
+                onClick { calculate() }
+            }
+            Button(it) with {
+                width = 165
+                caption = "Limpiar"
+                onClick { clean() }
+            }
+
+        }
     }
 
-    private fun actionsPanel(parentPanel: Panel) {
-        val hPanelButtons = Panel(parentPanel)
-                .setLayout(HorizontalLayout())
-        Button(hPanelButtons)
-                .setCaption("Calcular")
-                .onClick { calculate() }
-                .setWidth(165)
-        Button(hPanelButtons)
-                .setCaption("Limpiar")
-                .onClick { clean() }
-                .setWidth(165)
-    }
-
-    private fun coordinatesPanel(parentPanel: Panel, data: Map<String, String>) {
-        Label(parentPanel).setText(data["title"])
-
-        val columnPanel = Panel(parentPanel).setLayout(ColumnLayout(2))
-        labeledCoordinate(columnPanel, "Latitude", data["bindLat"])
-        labeledCoordinate(columnPanel, "Longitude", data["bindLong"])
-    }
-
-    private fun labeledCoordinate(panel: Panel, name: String, bindProp: String?) {
-        Label(panel).setText(name)
-        TextBox(panel)
-                .setWidth(150)
-                .bindValueToProperty<Int, ControlBuilder>(bindProp)
+    private fun labeledCoordinate(panel: Panel, name: String, bindProp: String) {
+        Label(panel) with { text = name }
+        TextBox(panel) with {
+            width = 150
+            bindTo(bindProp)
+        }
     }
 
     private fun calculate() {
         modelObject.getDistance()
-        val dialog = GeoCalculateDialog(this, modelObject)
-        dialog.onAccept { clean() }
-        dialog.open()
+        GeoCalculateDialog(thisWindow, modelObject) with {
+            onAccept { clean() }
+            open()
+        }
     }
     private fun clean() = modelObject.cleanData()
 }
 
+/**
+ * Dialog
+ */
 class GeoCalculateDialog(owner: WindowOwner, model: GeoModel) : Dialog<GeoModel>(owner, model) {
-
     override fun createFormPanel(mainPanel: Panel) {
         title = "Resultado de Distancia"
 
-        Label(mainPanel)
-                .bindValueToProperty<String, ControlBuilder>("result")
-        Button(mainPanel)
-                .setCaption("Cerrar y Limpiar")
-                .onClick { accept() }
-        Button(mainPanel)
-                .setCaption("Cerrar")
-                .onClick { cancel() }
+        Label(mainPanel) bindTo "result"
+
+        Button(mainPanel) with {
+            caption = "Cerrar y Limpiar"
+            onClick { accept() }
+        }
+
+        Button(mainPanel) with {
+            caption = "Cerrar"
+            onClick { cancel() }
+        }
     }
-
 }
-

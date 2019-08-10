@@ -1,63 +1,60 @@
 package geoclaseui
 
-import org.uqbar.arena.layout.ColumnLayout
-import org.uqbar.arena.layout.HorizontalLayout
-import org.uqbar.arena.layout.VerticalLayout
-import org.uqbar.arena.widgets.Button
 import org.uqbar.arena.widgets.Label
 import org.uqbar.arena.widgets.Panel
+import org.uqbar.arena.widgets.Button
 import org.uqbar.arena.widgets.TextBox
 import org.uqbar.arena.windows.MainWindow
-import org.uqbar.lacar.ui.model.ControlBuilder
+import org.uqbar.arena.kotlin.extensions.*
+
+fun main() = GeoLayoutWindow(GeoModel()).startApplication()
 
 class GeoLayoutWindow(model: GeoModel) : MainWindow<GeoModel>(model) {
-
     override fun createContents(mainPanel: Panel) {
         title = "Calculador de Distancias"
 
-        // no hace falta, es del de por defecto
-        mainPanel.setLayout(VerticalLayout())
+        mainPanel.asVertical()
 
         coordinatesPanel(mainPanel, "Desde", "From")
         coordinatesPanel(mainPanel, "Hasta", "To")
 
         actionsPanel(mainPanel)
-
-        resultPanel(mainPanel)
-    }
-
-    private fun resultPanel(mainPanel: Panel) {
-        Label(mainPanel)
-                .bindValueToProperty<String, ControlBuilder>("result")
+        Label(mainPanel) bindTo "result"
     }
 
     private fun actionsPanel(mainPanel: Panel) {
-        val hPanelButtons = Panel(mainPanel)
-                .setLayout(HorizontalLayout())
-        Button(hPanelButtons)
-                .setCaption("Calcular")
-                .onClick { calculate() }
-                .setWidth(165)
-        Button(hPanelButtons)
-                .setCaption("Limpiar")
-                .onClick { clean() }
-                .setWidth(165)
+        Panel(mainPanel) with {
+            asHorizontal()
+            Button(it) with {
+                width = 165
+                caption = "Calcular"
+                onClick { thisWindow.modelObject.getDistance() }
+            }
+            Button(it) with {
+                width = 165
+                caption = "Limpiar"
+                onClick { thisWindow.modelObject.getDistance() }
+            }
+        }
     }
 
     private fun coordinatesPanel(mainPanel: Panel, subtitle: String, whichCoord: String) {
-        Label(mainPanel).setText("Coordenadas $subtitle")
-        val columnPanel = Panel(mainPanel).setLayout(ColumnLayout(2))
-        Label(columnPanel).setText("Latitude")
-        TextBox(columnPanel)
-                .setWidth(150)
-                .bindValueToProperty<Int, ControlBuilder>("lat$whichCoord")
+        Label(mainPanel) with { text = "Coordenadas $subtitle" }
 
-        Label(columnPanel).setText("Longitude")
-        TextBox(columnPanel)
-                .setWidth(150)
-                .bindValueToProperty<Double, ControlBuilder>("long$whichCoord")
+        Panel(mainPanel) with {
+            asColumns(2)
+
+            Label(it) with { text = "Latitude" }
+            TextBox(it) with {
+                width = 150
+                bindTo("lat$whichCoord")
+            }
+
+            Label(it) with { text = "Longitude" }
+            TextBox(it) with {
+                width = 150
+                bindTo("long$whichCoord")
+            }
+        }
     }
-
-    private fun calculate() = modelObject.getDistance()
-    private fun clean() = modelObject.cleanData()
 }
