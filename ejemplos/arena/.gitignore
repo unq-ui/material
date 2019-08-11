@@ -1,3 +1,10 @@
+# IntelliJ
+.idea/
+out/
+*.iml
+
+# Maven
+target/
+
 generated-sources/
 xtend-gen/
-
