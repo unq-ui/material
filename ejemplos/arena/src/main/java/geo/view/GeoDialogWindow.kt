@@ -1,5 +1,6 @@
 package geo.view
 
+import _common.Support
 import geo.model.GeoModel
 import org.uqbar.arena.widgets.Label
 import org.uqbar.arena.widgets.Panel
@@ -18,6 +19,7 @@ fun main() = GeoDialogWindow(GeoModel()).startApplication()
 class GeoDialogWindow(model: GeoModel) : MainWindow<GeoModel>(model) {
     override fun createContents(mainPanel: Panel) {
         title = "Calculador de Distancias"
+        iconImage = Support.ICON
 
         mainPanel.asVertical()
 
