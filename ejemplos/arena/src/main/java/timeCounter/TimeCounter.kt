@@ -1,6 +1,7 @@
 package timeCounter
 
 import org.eclipse.xtend.lib.annotations.Accessors
+import org.mockito.cglib.core.Local
 import org.uqbar.commons.model.annotations.Observable
 import java.time.LocalDate
 import java.time.Period
@@ -8,19 +9,9 @@ import java.time.Period
 @Accessors
 @Observable
 class TimeCounter {
+	var now: LocalDate? = LocalDate.now()
+	var anotherDate: LocalDate? = now
+	var days: Int? = calc()
 	
-	int days
-	LocalDate anotherDate
-	LocalDate now
-	
-	new() {
-		now = LocalDate.now
-		anotherDate = now
-		days = calcular()
-	}
-	
-	def calcular() {
-		Period.between(anotherDate, now).days
-	}
-
+	fun calc() = Period.between(anotherDate, now).days
 }
