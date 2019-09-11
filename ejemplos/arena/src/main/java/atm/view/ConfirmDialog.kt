@@ -1,5 +1,6 @@
-package atm
+package atm.view
 
+import atm.viewModel.BankAppModel
 import org.uqbar.arena.widgets.*
 import org.uqbar.arena.windows.Dialog
 import org.uqbar.arena.windows.WindowOwner

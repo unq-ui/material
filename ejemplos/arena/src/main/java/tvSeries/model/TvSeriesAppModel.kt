@@ -22,6 +22,7 @@ class TvSeriesAppModel {
 	}
 
 	private fun initSeries() = system.series.map { SerieAppModel(it) }.toMutableList()
+
 	fun addNewSerie(serie: SerieAppModel): Unit {
 		if (serie.name == null || serie.seasons == null)
 			throw UserException("Falta el nombre o las temporadas")
