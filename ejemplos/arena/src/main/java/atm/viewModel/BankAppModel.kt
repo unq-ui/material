@@ -5,6 +5,7 @@ import atm.model.AccountCurrent
 import atm.model.BankFactory
 import atm.model.BankSystem
 import org.uqbar.commons.model.annotations.Observable
+import tvSeries.model.SerieAppModel
 
 @Observable
 class BankAppModel {
@@ -19,14 +20,9 @@ class BankAppModel {
 
 
    private fun initAccounts(): MutableList<AccountAppModel> {
-       var listOfAccountAppModel = mutableListOf<AccountAppModel>();
-       val mutableIterator = system.accounts.iterator()
+       
+       return system.accounts.map { AccountAppModel(it) }.toMutableList()
 
-
-       for (e in mutableIterator) {
-           listOfAccountAppModel.add(AccountAppModel(e))
-       }
-       return listOfAccountAppModel;
    }
 
     fun extract(accountAppModel: AccountAppModel?, mount: Int): Int? {
