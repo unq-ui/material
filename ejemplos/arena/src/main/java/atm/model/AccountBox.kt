@@ -4,8 +4,8 @@ package atm.model
 class AccountBox : Account{
 
     constructor(){
-        this.id = 1
-        this.accountType = "CajaDe  Ahorro"
+
+        this.accountType = "CajaDeAhorro"
     }
 
     override fun extract(amount : Int) : Int {

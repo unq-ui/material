@@ -1,6 +1,7 @@
 package atm.viewModel
 
 import atm.model.Account
+import atm.model.AccountCurrent
 import atm.model.BankFactory
 import atm.model.BankSystem
 import org.uqbar.commons.model.annotations.Observable
@@ -21,14 +22,9 @@ class BankAppModel {
        var listOfAccountAppModel = mutableListOf<AccountAppModel>();
        val mutableIterator = system.accounts.iterator()
 
-       for (e in mutableIterator) {
-           if (e.accountType == "CuentaCorriente"){
-               listOfAccountAppModel.add(AccountCurrentAppModel(e))
-           }
-           else{
-               listOfAccountAppModel.add(AccountBoxAppModel( e))
-           }
 
+       for (e in mutableIterator) {
+           listOfAccountAppModel.add(AccountAppModel(e))
        }
        return listOfAccountAppModel;
    }

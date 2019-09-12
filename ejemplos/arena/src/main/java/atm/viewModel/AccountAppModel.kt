@@ -1,13 +1,25 @@
 package atm.viewModel
 
+import atm.model.Account
 import org.uqbar.commons.model.annotations.Observable
 
 @Observable
-abstract class AccountAppModel {
+class AccountAppModel {
 
-    var id : Int = 0
     var available : Int = 0
-    abstract fun accountType() : String
-    abstract fun extract(monto: Int): Int
+    var model : Account? = null;
+
+    constructor(accountCurrent : Account){
+        this.available = accountCurrent.available
+        this.model = accountCurrent
+    }
+
+    fun accountType() = "Cuenta Corriente"
+
+    fun extract(monto: Int): Int {
+
+        return model!!.extract(monto);
+
+    }
 
 }

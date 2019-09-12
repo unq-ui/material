@@ -5,7 +5,6 @@ class AccountCurrent : Account{
     var discovered: Int = -20
 
     constructor(){
-        this.id = 2
         this.accountType = "CuentaCorriente"
     }
 
