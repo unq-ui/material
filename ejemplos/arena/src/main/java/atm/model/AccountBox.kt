@@ -1,7 +1,13 @@
-package atm
+package atm.model
 
 
-class SavingBank : Account() {
+class AccountBox : Account{
+
+    constructor(){
+
+        this.accountType = "Caja De Ahorro"
+    }
+
     override fun extract(amount : Int) : Int {
         if (available >= amount) {
             available -= amount
@@ -16,5 +22,5 @@ class SavingBank : Account() {
         return available
     }
 
-    override fun accountType() = "Caja de ahorro"
+
 }

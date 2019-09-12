@@ -1,6 +1,9 @@
-package atm
+package atm.view
 
 import _common.Support
+import atm.model.NoCreditException
+import atm.viewModel.AccountAppModel
+import atm.viewModel.BankAppModel
 import org.uqbar.arena.widgets.Button
 import org.uqbar.arena.widgets.Label
 import org.uqbar.arena.widgets.Panel
@@ -8,6 +11,7 @@ import org.uqbar.arena.widgets.TextBox
 import org.uqbar.arena.windows.SimpleWindow
 import org.uqbar.arena.windows.WindowOwner
 import org.uqbar.arena.kotlin.extensions.*
+import org.uqbar.commons.model.exceptions.UserException
 
 
 class MainWindow(owner: WindowOwner, model: BankAppModel) : SimpleWindow<BankAppModel>(owner, model) {
@@ -20,9 +24,9 @@ class MainWindow(owner: WindowOwner, model: BankAppModel) : SimpleWindow<BankApp
 
         Label(mainPanel) with { text = "Seleccione la cuenta con la que desea operar" }
 
-        table<Account>(mainPanel) with {
+        table<AccountAppModel>(mainPanel) with {
             bindItemsTo("accounts")
-            bindSelectionTo("selectAccount")
+            bindTo("selectAccount")
             column {
                 title = "Tipo de Cuenta"
                 fixedSize = 250
@@ -43,21 +47,25 @@ class MainWindow(owner: WindowOwner, model: BankAppModel) : SimpleWindow<BankApp
             withFilter { event -> event.potentialTextResult.matches(Regex("[0-9]*")) }
         }
 
-        Button(mainPanel) with {
-            caption = "extraer"
-            onClick {
-                ConfirmDialog(thisWindow, modelObject) with {
-                    onAccept {
-                        selectedAccount()?.extract(amount())
-                        cleanData()
+            Button(mainPanel) with {
+                caption = "extraer"
+                onClick {
+                    ConfirmDialog(thisWindow, modelObject) with {
+                        onAccept {
+                            try {
+                                extract()
+                                cleanData()
+                            }catch (e: NoCreditException){
+                                throw UserException(e.message);
+                            }
+                        }
+                        open()
                     }
-                    open()
                 }
             }
-        }
-    }
 
-    private fun amount() = modelObject.input
-    private fun cleanData() =  modelObject.cleanData()
-    private fun selectedAccount() = modelObject.selectAccount
+    }
+   private fun extract() = modelObject.extract(modelObject.selectAccount, modelObject.input)
+   private fun cleanData() =  modelObject.cleanData()
+
 }
