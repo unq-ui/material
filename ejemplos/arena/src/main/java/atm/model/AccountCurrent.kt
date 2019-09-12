@@ -5,7 +5,7 @@ class AccountCurrent : Account{
     var discovered: Int = -20
 
     constructor(){
-        this.accountType = "CuentaCorriente"
+        this.accountType = "Cuenta Corriente"
     }
 
     override fun extract(amount: Int): Int {

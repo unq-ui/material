@@ -20,7 +20,7 @@ class BankAppModel {
 
 
    private fun initAccounts(): MutableList<AccountAppModel> {
-       
+
        return system.accounts.map { AccountAppModel(it) }.toMutableList()
 
    }

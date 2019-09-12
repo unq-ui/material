@@ -5,7 +5,7 @@ class AccountBox : Account{
 
     constructor(){
 
-        this.accountType = "CajaDeAhorro"
+        this.accountType = "Caja De Ahorro"
     }
 
     override fun extract(amount : Int) : Int {

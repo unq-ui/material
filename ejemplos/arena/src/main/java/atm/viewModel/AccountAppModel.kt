@@ -8,13 +8,13 @@ class AccountAppModel {
 
     var available : Int = 0
     var model : Account? = null;
+    var accountType : String = ""
 
     constructor(accountCurrent : Account){
         this.available = accountCurrent.available
         this.model = accountCurrent
+        this.accountType = accountCurrent.accountType
     }
-
-    fun accountType() = "Cuenta Corriente"
 
     fun extract(monto: Int): Int {
 
