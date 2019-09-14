@@ -1,5 +1,6 @@
-package atm
+package atm.view
 
+import atm.viewModel.BankAppModel
 import org.uqbar.arena.widgets.*
 import org.uqbar.arena.windows.Dialog
 import org.uqbar.arena.windows.WindowOwner
@@ -24,5 +25,5 @@ class ConfirmDialog(owner: WindowOwner, model: BankAppModel) : Dialog<BankAppMod
 
     private fun amount() = modelObject.input
     private fun account() = modelObject.selectAccount
-    private fun accountType() = account()?.accountType()
+    private fun accountType() = account()?.accountType
 }

@@ -1,7 +1,12 @@
-package atm
+package atm.model
 
-class CurrentAccount : Account() {
+class AccountCurrent : Account{
+
     var discovered: Int = -20
+
+    constructor(){
+        this.accountType = "Cuenta Corriente"
+    }
 
     override fun extract(amount: Int): Int {
         if (available >= discovered + amount) {
@@ -17,5 +22,5 @@ class CurrentAccount : Account() {
         return available
     }
 
-    override fun accountType() = "Cuenta Corriente"
+
 }
