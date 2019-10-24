@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            padding: 25px;
+        }
+        #elem {
+            height: 50px;
+            width: 350px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="texts">
+        <p id="p1">Primer párrafo.</p>
+        <p id="p2">Segundo párrafo.</p>
+    </div>
+
+    <script>
+    let texts = document.getElementById("texts");
+    let p3 = document.createElement("p");
+    p3.innerHTML = "Tercer párrafo.";
+    texts.appendChild(p3);
+    document.getElementById("p2").remove();
+    </script>
+</body>
+</html>

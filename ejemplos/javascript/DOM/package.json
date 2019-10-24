@@ -1,0 +1,21 @@
+{
+  "name": "examplejs",
+  "version": "1.0.0",
+  "main": "js.js",
+  "scripts": {
+    "h": "babel --help",
+    "build-jsx": "babel app-jsx.js -o app-jsx-dist.js",
+    "build-comp": "babel app-comp.js -o app-comp-dist.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3"
+  },
+  "dependencies": {},
+  "description": ""
+}
