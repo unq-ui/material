@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Clase react 2
 
-## Available Scripts
+## Parte 1
 
-In the project directory, you can run:
+Crear proyecto con create-react-app
 
-### `yarn start`
+```bash
+npx create-react-app APP_NAME
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Parte 2
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Agregar dependencias utiles
 
-### `yarn test`
+* bootstrap
+* jquery (dependencia para bootstrap)
+* popper.js (dependencia para bootstrap)
+* react-router-dom (para hacer routeo) (Parte 4)
+* axios (para realiar requests) (Parte 5)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Parte 3
 
-### `yarn build`
+Creamos el componente Login con dos inputs (usuario y password) y un boton para loguearnos (Por ahora es todo local, y tenemos los datos harcodeados de usuarios).
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*EJ:*
+usuario: **juan**
+contraseña: **juan**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Parte 4
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Creamos el componente Home para que despues de hacer click y que los datos sean correctos navegue a dicho componente.
 
-### `yarn eject`
+## Parte 5
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+En el Home se realiza un pedido a una api publica *https://api.punkapi.com/v2/beers* y listamos el resultado.
