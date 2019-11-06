@@ -11,6 +11,7 @@ class TwitterAPI(private val port: Int) {
 
     fun init(): Javalin {
         val app = Javalin.create {
+            it.enableCorsForAllOrigins()
             it.registerPlugin(RouteOverviewPlugin("/routes"))
         }.exception(Exception::class.java) { e, ctx ->
                 e.printStackTrace()
@@ -30,6 +31,12 @@ class TwitterAPI(private val port: Int) {
                     path("tweet") {
                         put(twController::newTweet)         // PUT /users/:username/tweet
                     }
+                }
+            }
+            path("tweets") {
+                get(twController::getTweets)                // GET /tweets
+                path(":username") {
+                    post(twController::createTweet)         // POST /tweets/:username
                 }
             }
         }

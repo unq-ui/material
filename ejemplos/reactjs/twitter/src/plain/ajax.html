@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <div id="demo">
+    <h1>The XMLHttpRequest Object</h1>
+    <button id="button" type="button" onclick="showMeow()">Change Content</button>
+    <div>
+      <img id="cat" src="" width="350"/>
+      <div id="error"></div>
+    </div>
+  </div>
+
+  <script>
+    function showMeow() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState < 4) {
+          document.getElementById("button").setAttribute("disabled", "disabled");
+        } else {
+          document.getElementById("button").removeAttribute("disabled");
+        }
+        if (this.readyState == 4 && this.status >= 200 && this.status < 300) {
+          console.log(this);
+          document.getElementById("cat")
+            .setAttribute("src", JSON.parse(this.responseText).file);
+        } else if (this.readyState == 4 && this.status >= 300){
+          console.log(this);
+          document.getElementById("error").innerHTML = this.statusText;
+        }
+      };
+      // xhttp.open("GET", "https://aws.random.cat/meow", true);
+      xhttp.open("GET", "favicon.ico", true);
+      xhttp.send();
+    }
+  </script>
+
+</body>
+
+</html>

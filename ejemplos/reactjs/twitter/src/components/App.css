@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.TwitterQ {
+  text-align: left;
+  min-width: 100vh;
+}
+
+.QTweets {
+  padding: 10px 20px;
+  background-color: #373d48;
+}
+
+.Tweet {
+  border-bottom: 1px solid aliceblue;
+}
+
+.Tweet h5 {
+  margin-bottom: -10px;
+  margin-top: 10px;
+}
+
+.Tweet p {
+  margin: 10px 0;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}

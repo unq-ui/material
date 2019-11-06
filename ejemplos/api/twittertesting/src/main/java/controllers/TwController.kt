@@ -32,6 +32,25 @@ class TwController {
         ctx.json(FullUserAdapter(user.username, user.fullname, user.tweets))
     }
 
+    fun createTweet(ctx: Context) {
+        Thread.sleep(5000)
+        var user = users.firstOrNull { it.username == ctx.pathParam("username") }
+        if (user == null) {
+            user = User(ctx.pathParam("username"), "", "")
+            users.add(user)
+        }
+        val tweet = ctx.body<Map<String, String>>()
+        user.addTweet(tweet["text"] ?: "")
+        ctx.json(FullUserAdapter(user.username, user.fullname, user.tweets, tweet["text"]))
+    }
+
+    fun getTweets(ctx: Context) {
+        val tweets = users.flatMap { user ->
+            user.tweets.map { tweet -> TweetAdapter(user.username, tweet) }
+        }
+        ctx.json(tweets.shuffled())
+    }
+
     fun storeUser(ctx: Context) {
         val user = ctx.body<StoreUserAdapter>()
         assert(users.all { it.username != user.username }) {
@@ -47,8 +66,14 @@ class TwController {
     }
 }
 
+data class TweetAdapter(val username: String, val tweet: String)
 data class StoreUserAdapter(val username: String, val fullname: String, val password: String) {
     fun toUser() = User(username, fullname, password)
 }
 data class BasicUserAdapter(val username: String, val fullname: String)
-data class FullUserAdapter(val username: String, val fullname: String, val tweets: List<String>)
+data class FullUserAdapter(
+        val username: String,
+        val fullname: String,
+        val tweets: List<String>,
+        val lastTweet: String? = null
+)

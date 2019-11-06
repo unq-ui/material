@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#button").click(function () {
+        $.ajax({
+          // url: "https://aws.random.cat/meow",
+          url: "favicon.ico",
+          method: "GET",
+          dataType: "json",
+          beforeSend: function () {
+            $("#button").prop("disabled", true).text("Loading...");
+          },
+          success: function (result) {
+            console.log(result)
+            $("#cat").attr("src", result.file);
+          },
+          error: function (error) {
+            console.log(error);
+            $("#error").html(error.statusText);
+          },
+          complete: function() {
+            $("button").prop("disabled", false).text("Get Content");
+          }
+        });
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <div id="div1">
+    <h2>AJAX con jQuery</h2>
+  </div>
+
+  <button id="button">Get Content</button>
+  <div>
+    <img id="cat" src="" width="350" />
+    <div id="error"></div>
+  </div>
+</body>
+
+</html>
