@@ -12,6 +12,37 @@
 * [ReactJS](https://reactjs.org)
 * [Ejemplos de .gitignore](https://github.com/github/gitignore)
 
+## Ejemplos de Código
+
+### Dominios >> Kotlin
+
+* [Geo Localización](https://github.com/unq-ui/ej-dominio-geo)
+* [TV Shows](https://github.com/unq-ui/ej-dominio-tv-shows)
+
+### Desktop >> Arena
+
+TODO
+
+### API REST >> Javalin
+
+TODO
+
+### Web >> HTML
+
+TODO
+
+### Web >> Javascript
+
+TODO
+
+### Web >> React
+
+TODO
+
+### Mobile >> React Native
+
+TODO
+
 ## Domain >> Kotlin
 
 #### Ejemplo de pom.xml básico
