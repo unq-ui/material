@@ -1,6 +1,6 @@
 # Construcción de Interfaces de Usuario
 
-# _Material de Cursada_
+**_Material de Cursada_**
 
 ## Links útiles
 
@@ -21,7 +21,7 @@
 
 ### Desktop >> Arena
 
-TODO
+* [Conversor](https://github.com/unq-ui/ej-desktop-converter)
 
 ### API REST >> Javalin
 
@@ -45,7 +45,7 @@ TODO
 
 ## Domain >> Kotlin
 
-#### Ejemplo de pom.xml básico
+### Ejemplo de pom.xml básico
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -75,7 +75,7 @@ TODO
 
 ### Vm arguments
 
-```
+```bash
 -Djava.system.class.loader=org.uqbar.apo.APOClassLoader
 ```
 
@@ -163,7 +163,7 @@ Primero es necesario instalar node según su SO: https://nodejs.org/en/download/
 
 Una vez instalado node, ir al directorio donde va a estar el proyecto y ejecutar:
 
-```
+```bash
 npx create-react-app mi-proyecto-web
 cd mi-proyecto-web
 npm start
