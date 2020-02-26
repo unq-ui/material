@@ -25,6 +25,7 @@
 * [Cajero Automático](https://github.com/unq-ui/ej-desktop-atm)
 * [Conversor](https://github.com/unq-ui/ej-desktop-converter)
 * [Geo Localización](https://github.com/unq-ui/ej-desktop-geo)
+* [Phone](https://github.com/unq-ui/ej-desktop-phone)
 
 ### API REST >> Javalin
 
