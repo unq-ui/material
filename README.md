@@ -28,6 +28,7 @@
 * [Phone](https://github.com/unq-ui/ej-desktop-phone)
 * [Time Counter](https://github.com/unq-ui/ej-desktop-time-counter)
 * [TV Shows](https://github.com/unq-ui/ej-desktop-tv-shows)
+* [Twitter](https://github.com/unq-ui/ej-desktop-twitter)
 
 ### API REST >> Javalin
 
