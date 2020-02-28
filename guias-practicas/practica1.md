@@ -14,7 +14,6 @@ Escribir un programa que permita convertir distintas unidades de medidas.
 4. Programar un objeto que permita convertir de una unidad cualquiera a otra. Para ello
 se deberá programar un conversor genérico que sea capaz de recibir el tipo de conversión deseada.
 
-
 ## Ejercio 2: Manejo de Strings
 
 Programar el objeto `Str` que tenga la capacidad de realizar las siguientes acciones:
