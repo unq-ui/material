@@ -1,8 +1,11 @@
-# Práctica 1 >> Modelado de Dominios
+> [Volver al índice](README.md#guias-practicas)
+
+# Práctica 1 » Modelado de Dominios
 
 Realizar los ejercicios utilizando Kotlin.
 En todos los casos se espera que la resolución del ejercicio sea
 realizada mediante el uso de TDD.
+
 
 ## Ejercio 1: Conversor
 

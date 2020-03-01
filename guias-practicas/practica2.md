@@ -1,4 +1,6 @@
-# Práctica 2 >> Interfaz Desktop - Arena
+> [Volver al índice](README.md#guias-practicas)
+
+# Práctica 2 » Interfaz Desktop - Arena
 
 Realizar los ejercicios utilizando el framework Arena y Kotlin.
 

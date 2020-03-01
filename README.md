@@ -12,15 +12,22 @@
 * [ReactJS](https://reactjs.org)
 * [Ejemplos de .gitignore](https://github.com/github/gitignore)
 
-## Ejemplos de Código
+## Guías Prácticas
 
-### Dominios >> Kotlin
+* [Práctica 1 » Modelado de Dominios](guias-practicas/practica1.md)
+* [Práctica 2 » Interfaces Desktop](guias-practicas/practica2.md)
+* [Práctica 3 » APIs REST](guias-practicas/practica3.md)
+* Práctica 4 » Interfaces Web
+
+## Ejemplos
+
+### Dominios » Kotlin
 
 * [Cajero Automático](https://github.com/unq-ui/ej-dominio-atm)
 * [Geo Localización](https://github.com/unq-ui/ej-dominio-geo)
 * [TV Shows](https://github.com/unq-ui/ej-dominio-tv-shows)
 
-### Desktop >> Arena
+### Desktop » Arena
 
 * [Cajero Automático](https://github.com/unq-ui/ej-desktop-atm)
 * [Conversor](https://github.com/unq-ui/ej-desktop-converter)
@@ -31,27 +38,27 @@
 * [Twitter](https://github.com/unq-ui/ej-desktop-twitter)
 * [Unquify](https://github.com/unq-ui/ej-desktop-unquify)
 
-### API REST >> Javalin
+### API REST » Javalin
 
 TODO
 
-### Web >> HTML
+### Web » HTML
 
 TODO
 
-### Web >> Javascript
+### Web » Javascript
 
 TODO
 
-### Web >> React
+### Web » React
 
 TODO
 
-### Mobile >> React Native
+### Mobile » React Native
 
 TODO
 
-## Domain >> Kotlin
+## Domain » Kotlin
 
 ### Ejemplo de pom.xml básico
 
@@ -79,7 +86,7 @@ TODO
 </project>
 ```
 
-## Desktop >> Arena
+## Desktop » Arena
 
 ### Vm arguments
 
@@ -128,7 +135,7 @@ TODO
 </project>
 ```
 
-## Api REST >> Javalin
+## Api REST » Javalin
 
 ### Ejemplo de pom.xml básico
 
@@ -165,7 +172,7 @@ TODO
 </project>
 ```
 
-## Aplicación Web >> ReactJS
+## Aplicación Web » ReactJS
 
 Primero es necesario instalar node según su SO: https://nodejs.org/en/download/
 
