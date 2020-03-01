@@ -40,7 +40,7 @@
 
 ### API REST » Javalin
 
-TODO
+* [Geo Localización](https://github.com/unq-ui/ej-api-geo)
 
 ### Web » HTML
 
