@@ -42,6 +42,7 @@
 
 * [Geo Localización](https://github.com/unq-ui/ej-api-geo)
 * [Twitter](https://github.com/unq-ui/ej-api-twitter)
+* [Twitter con Testing](https://github.com/unq-ui/ej-api-twitter-testing)
 
 ### Web » HTML
 
