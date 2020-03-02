@@ -1,8 +1,0 @@
-package ar.edu.unq
-
-import org.junit.Test
-import kotlin.test.assertEquals
-
-class HelloTest {
-
-}
