@@ -21,13 +21,13 @@
 
 ## Ejemplos
 
-### Dominios » Kotlin
+### Dominios
 
 * [Cajero Automático](https://github.com/unq-ui/ej-dominio-atm)
 * [Geo Localización](https://github.com/unq-ui/ej-dominio-geo)
 * [TV Shows](https://github.com/unq-ui/ej-dominio-tv-shows)
 
-### Desktop » Arena
+### Desktop
 
 * [Cajero Automático](https://github.com/unq-ui/ej-desktop-atm)
 * [Conversor](https://github.com/unq-ui/ej-desktop-converter)
@@ -38,22 +38,19 @@
 * [Twitter](https://github.com/unq-ui/ej-desktop-twitter)
 * [Unquify](https://github.com/unq-ui/ej-desktop-unquify)
 
-### API REST » Javalin
+### API REST
 
 * [Geo Localización](https://github.com/unq-ui/ej-api-geo)
 * [Twitter](https://github.com/unq-ui/ej-api-twitter)
 * [Twitter con Testing](https://github.com/unq-ui/ej-api-twitter-testing)
 * [ToDo List](https://github.com/unq-ui/ej-api-todo-list)
 
-### Web » HTML
+### Javascript
 
-TODO
+* [Local Data](https://github.com/unq-ui/ej-javascript-local-data)
+* [Remote Data](https://github.com/unq-ui/ej-javascript-remote-data)
 
-### Web » Javascript
-
-TODO
-
-### Web » React
+### Web SPA
 
 TODO
 
