@@ -49,6 +49,7 @@
 
 * [Local Data](https://github.com/unq-ui/ej-javascript-local-data)
 * [Remote Data](https://github.com/unq-ui/ej-javascript-remote-data)
+* [DOM Manipulation](https://github.com/unq-ui/ej-javascript-dom)
 
 ### Web SPA
 
