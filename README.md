@@ -55,6 +55,7 @@
 
 * [Contador](https://github.com/unq-ui/ej-web-counter)
 * [ToDo List](https://github.com/unq-ui/ej-web-todo-list)
+* [ToDo List Remote](https://github.com/unq-ui/ej-web-todo-list-remote)
 * [Twitter](https://github.com/unq-ui/ej-web-twitter)
 * TODO
 
