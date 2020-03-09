@@ -55,6 +55,7 @@
 
 ### Web » ReactJS
 
+* [Anime](https://github.com/unq-ui/ej-web-anime)
 * [Contador](https://github.com/unq-ui/ej-web-counter)
 * [Login & Beers](https://github.com/unq-ui/ej-web-login-and-beers)
 * [Mail Client](https://github.com/unq-ui/ej-web-mail-client)
