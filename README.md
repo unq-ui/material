@@ -40,6 +40,7 @@
 
 ### API REST
 
+* [Anime](https://github.com/unq-ui/ej-api-anime)
 * [Geo Localización](https://github.com/unq-ui/ej-api-geo)
 * [Mail Server](https://github.com/unq-ui/ej-api-mail-server)
 * [ToDo List](https://github.com/unq-ui/ej-api-todo-list)
@@ -57,6 +58,7 @@
 * [Contador](https://github.com/unq-ui/ej-web-counter)
 * [Login & Beers](https://github.com/unq-ui/ej-web-login-and-beers)
 * [Mail Client](https://github.com/unq-ui/ej-web-mail-client)
+* [Routing](https://github.com/unq-ui/ej-web-routing)
 * [ToDo List](https://github.com/unq-ui/ej-web-todo-list)
 * [ToDo List Remote](https://github.com/unq-ui/ej-web-todo-list-remote)
 * [Twitter](https://github.com/unq-ui/ej-web-twitter)
