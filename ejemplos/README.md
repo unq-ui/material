@@ -2,6 +2,6 @@
 
 ## pom.xml
 
-* [Kotlin Domain](ejemplos/pom.kotlin.domain.xml)
-* [Kotlin Arena](ejemplos/pom.kotlin.arena.xml)
-* [Kotlin Javalin](ejemplos/pom.kotlin.javalin.xml)
+* [Kotlin Domain](pom.kotlin.domain.xml)
+* [Kotlin Arena](pom.kotlin.arena.xml)
+* [Kotlin Javalin](pom.kotlin.javalin.xml)
