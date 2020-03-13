@@ -69,33 +69,11 @@
 * [ToDo List](https://github.com/unq-ui/ej-mobile-todo-list)
 * [UNQ IMDB](https://github.com/unq-ui/ej-mobile-unq-imdb)
 
-## Domain » Kotlin
+## Ejemplos de pom.xml
 
-### Ejemplo de pom.xml básico
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>ar.edu.unq.ui</groupId>
-    <artifactId>mi-proyecto</artifactId>
-    <version>1.0</version>
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
-</project>
-```
+* [Kotlin Domain](ejemplos/pom.kotlin.domain.xml)
+* [Kotlin Arena](ejemplos/pom.kotlin.arena.xml)
+* [Kotlin Javalin](ejemplos/pom.kotlin.javalin.xml)
 
 ## Desktop » Arena
 
@@ -105,89 +83,11 @@
 -Djava.system.class.loader=org.uqbar.apo.APOClassLoader
 ```
 
-### Ejemplos de pom.xml básico
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
-    <repositories>
-        <repository>
-            <id>uqbar</id>
-            <name>Uqbar</name>
-            <url>http://maven.uqbar.org/releases/</url>
-        </repository>
-    </repositories>
-
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>ar.edu.unq.ui</groupId>
-    <artifactId>mi-proyecto-desktop</artifactId>
-    <version>1.0</version>
-
-    <parent>
-        <groupId>org.uqbar-project</groupId>
-        <artifactId>arena-xtend-parent</artifactId>
-        <version>3.6.3</version>
-    </parent>
-
-    <dependencies>
-        <!-- Si necesita su proyecto de dominio lo agregan acá como dependencia -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
-</project>
-```
-
-## Api REST » Javalin
-
-### Ejemplo de pom.xml básico
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>ar.edu.unq.ui</groupId>
-    <artifactId>mi-proyecto-api</artifactId>
-    <version>1.0</version>
-
-    <dependencies>
-        <!-- Si necesita su proyecto de dominio lo agregan acá como dependencia -->
-        <dependency>
-            <groupId>io.javalin</groupId>
-            <artifactId>javalin</artifactId>
-            <version>2.8.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.7.26</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.9.8</version>
-        </dependency>
-    </dependencies>
-
-</project>
-```
-
 ## Aplicación Web » ReactJS
 
-Primero es necesario instalar node según su SO: https://nodejs.org/en/download/
+Primero es necesario instalar [Node.js](https://nodejs.org/en/download/) según su SO.
 
-Una vez instalado node, ir al directorio donde va a estar el proyecto y ejecutar:
+Una vez instalado ir al directorio donde va a estar el proyecto y ejecutar:
 
 ```bash
 npx create-react-app mi-proyecto-web
