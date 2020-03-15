@@ -1,6 +1,6 @@
-# Construcción de Interfaces de Usuario
+# Material de Cursada
 
-**_Material de Cursada_**
+> **Universidad Nacional de Quilmes » Construcción de Interfaces de Usuario**
 
 ## Info útil
 
