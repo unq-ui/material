@@ -2,14 +2,16 @@
 
 **_Material de Cursada_**
 
-## Links útiles
+## Info útil
 
-* [Página de la materia](http://interfaces.web.unq.edu.ar/)
-* [Página de la materia en cuatrimestres anteriores](https://algo3.uqbar-project.org/)
+* Notas
+* [Slides](slides/README.md)
+* [Calendario](Calendar.md)
+* [Arena Framework](http://arena.uqbar-project.org/)
 * [Kotlin by example](https://play.kotlinlang.org/byExample/overview)
 * [Javalin](https://javalin.io/)
-* [NodeJS](https://nodejs.org)
-* [ReactJS](https://reactjs.org)
+* [Node.js](https://nodejs.org)
+* [React](https://reactjs.org)
 * [Ejemplos de .gitignore](https://github.com/github/gitignore)
 
 ## Guías Prácticas
