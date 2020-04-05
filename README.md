@@ -21,6 +21,10 @@
 * [Práctica 3 » APIs REST](guias-practicas/practica3.md)
 * Práctica 4 » Interfaces Web
 
+## Apuntes
+
+* [Cookbook Arena » Guía de Inicio](apuntes/CookBook_Arena_Inicial.md)
+
 ## Ejemplos
 
 ### Dominios
