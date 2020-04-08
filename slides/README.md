@@ -1,7 +1,7 @@
 # Clases
 
 * Slides
-  - [Presentación / Introducción a UI](slides/01.%20Presentación%20-%20Introducción%20a%20UI.pdf)
+  - [Presentación / Introducción a UI](slides/01.%20Presentacion%20-%20Introduccion%20a%20UI.pdf)
   - [Introducción a Kotlin](slides/02.%20Kotlin.pdf)
 
 * Youtube
