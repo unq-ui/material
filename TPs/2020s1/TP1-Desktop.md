@@ -1,4 +1,4 @@
-## TP1 >> UNQflix >> TP1 - Desktop Arena
+## TP1 >> UNQflix >> Desktop Arena
 
 
 UNQFlix es una plataforma de streaming de películas y series. Para el TP1 se requiere la construcción de una aplicación de escritorio (desktop) para poder administrar el contenido de la aplicación.
