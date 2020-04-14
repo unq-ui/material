@@ -6,7 +6,7 @@ La aplicación deberá conocer el listado de películas, series y usuarios regis
 
 ### Información de Modelo
 
-####Película
+###### Película
 - Estado (habilitada /desabilitada)
 - Descripción
 - Poster (URL a la imágen)
@@ -18,7 +18,7 @@ La aplicación deberá conocer el listado de películas, series y usuarios regis
 - Lista de categorías (una categoría es un string)
 - Contenido relacionado
 
-####Serie
+###### Serie
 - Estado (habilitada / deshabilitada)
 - Descripción
 - Poster (URL a la imágen)
@@ -27,20 +27,20 @@ La aplicación deberá conocer el listado de películas, series y usuarios regis
 - Lista de categorías (una categoría es un string)
 - Contenido relacionado
 
-####Temporada
+#####Temporada
 - Descripción
 - Nombre de la temporada (o número)
 - Capítulos
 - Poster (URL de la imágen)
 
-####Capítulo
+#####Capítulo
 - Descripción
 - Nombre del capítulo
 - Tiempo de duración
 - Video (URL)
 - Miniatura del capítulo (url de la imágen)
 
-####Usuario
+#####Usuario
 - Nombre
 - Correo electrónico (único, no editable)
 - Contraseña
@@ -57,6 +57,5 @@ Se solicita la construcción de las siguiente funcionalidades:
 Para ayudar la comprensión del enunciados y darse una idea de como serían las pantallas adjuntamos los siguientes mockups:
 
 
-[https://www.figma.com/proto/HJg1GqKGTTSlTwmFN3qANK/unqflix-arena?node-id=1%3A40&scaling=min-zoom][Mockups]
+[Mockups][https://www.figma.com/proto/HJg1GqKGTTSlTwmFN3qANK/unqflix-arena?node-id=1%3A40&scaling=min-zoom]
 
-[Mockups]: https://www.figma.com/proto/HJg1GqKGTTSlTwmFN3qANK/unqflix-arena?node-id=1%3A40&scaling=min-zoom
