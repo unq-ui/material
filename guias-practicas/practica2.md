@@ -60,7 +60,7 @@ Hacer una ventana que contenga
 
 Cuando el usuario escriba Nombre o Apellido en el label saludo debe escribirse el string "Hola " + nombre + " " + apellido.
 
-![ej1](_img/ej-extra1.png)
+![ej1](_img/ej1-extra.png)
 
 ### Extra 2
 
@@ -73,7 +73,7 @@ Hacer una ventana que contenga
 
 Cuando el usuario presione el botón debe calcularse el resultado y mostrarse en el label.
 
-![ej2](_img/ej-extra2.png)
+![ej2](_img/ej2-extra.png)
 
 **Variante:** hacer la operación por defecto (elija una) a medida que se modifiquen los operandos 1 ó 2.
 
@@ -86,7 +86,7 @@ Hacer una ventana que contenga
 
 Cuando el usuario escriba una frase debe aparecer en el label Conversión la palabra al revés.
 
-![ej3](_img/ej-extra3.png)
+![ej3](_img/ej3-extra.png)
 
 **Bonus:** si la palabra es palíndromo debe aparecer en azul, o bien en rojo si no lo es.
 
@@ -96,7 +96,7 @@ Cuando el usuario escriba una frase debe aparecer en el label Conversión la pal
 
 Hacer una ventana que contenga un campo con un label Tweet, y un campo texto editable de 140 caracteres. Conforme el usuario va escribiendo debería decrementarse la cantidad de caracteres libres (140 - longitud del tweet)
 
-![ej4](_img/ej-extra4.png)
+![ej4](_img/ej4-extra.png)
 
 *BONUS 2:* No dejar escribir al sobrepasar los 140 caracteres.
 *BONUS 2:* Cuando queden menos de 5 caracteres mostrar el número en rojo.
@@ -105,19 +105,19 @@ Hacer una ventana que contenga un campo con un label Tweet, y un campo texto edi
 
 Se tiene un combo de productos, objetos que tienen como propiedades precio de venta y descripción. Al seleccionar un elemento debe mostrar en otro label el precio de dicho producto.
 
-![ej5](_img/ej-extra5.png)
+![ej5](_img/ej5-extra.png)
 
 ### Extra 6
 
 Realizar el conversor de Celsius a Fahrenheit o viceversa mediante dos campos editables. Cuando se modifique uno debe actualizarse el valor del otro.
 
-![ej6](_img/ej-extra6.png)
+![ej6](_img/ej6-extra.png)
 
 ### Extra 7
 
 La pantalla debe tener un campo fecha editable `dd/MM/yyyy`. A medida que escribe la fecha debe determinar si es válida, y en caso afirmativo, calcular cuántos días pasaron desde el día de hoy hasta esa fecha (puede ser negativo a priori).
 
-![ej7](_img/ej-extra7.png)
+![ej7](_img/ej7-extra.png)
 
 **BONUS:** Permitir ingresar sólo fechas anteriores.
 
@@ -125,6 +125,6 @@ La pantalla debe tener un campo fecha editable `dd/MM/yyyy`. A medida que escrib
 
 Ingresar un campo fecha editable en formato `dd/MM/yyyy` y cuando sea válida mostrarla en un label en formato `MM-dd-yyyy`.
 
-![ej8](_img/ej-extra8.png)
+![ej8](_img/ej8-extra.png)
 
 **BONUS:** Si la fecha es posterior a la fecha de hoy mostrarla en verde, si es la fecha de hoy mostrarla en azul y si es anterior a la fecha de hoy mostrarla en amarillo.
