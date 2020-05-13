@@ -1,6 +1,6 @@
 # UNQFlix (API)
 
-Continuando con la construcción de la plataforma UNQFlix se solicita la construcción de una API RESTFull que de soporte y brinde la funcionalidad necesaria para la aplicación WEB que se realizará en el TP3. 
+Continuando con la construcción de la plataforma UNQFlix se solicita la construcción de una API RESTFul que de soporte y brinde la funcionalidad necesaria para la aplicación WEB que se realizará en el TP3. 
 
 
 ## API
@@ -200,7 +200,7 @@ Retorna los banners de la aplicacion
  ```
 
 
- ### GET /{contentId}
+ ### GET /content/{:contentId}
 
  Trae información de una serie o pelicula, el parametro tiene que ser el id de una pelicula o una serie.
 
@@ -256,16 +256,10 @@ Retorna los banners de la aplicacion
 }
 ```
 
-### POST /fav
+### POST /user/fav/{:contentId}
 
 Agrega o elimina un contenido de la lista de favoritos del usuario.
 
-Body:
-```json
-{
-    "id": "mov_1" // tambien puede ser una serie
-}
-```
 >La respuesta tambien puede ser la lista actualizada de los favoritos del usuario
 
 #### Respuestas:
@@ -277,7 +271,7 @@ Body:
 { "result": "ok" }
 ```
 
-### PUT /lastSeen
+### POST /user/lastSeen
 
 Agrega un contenido a la lista de lo ultimo visto del usuario
 
