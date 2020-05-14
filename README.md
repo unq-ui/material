@@ -47,6 +47,7 @@
 ### API REST
 
 * [Anime](https://github.com/unq-ui/ej-api-anime)
+* [CRUD User](https://github.com/unq-ui/ej-api-crud-user)
 * [Geo Localización](https://github.com/unq-ui/ej-api-geo)
 * [Mail Server](https://github.com/unq-ui/ej-api-mail-server)
 * [ToDo List](https://github.com/unq-ui/ej-api-todo-list)
