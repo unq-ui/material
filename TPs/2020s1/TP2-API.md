@@ -64,42 +64,9 @@ Body:
 }
 ```
 
-### POST /login
-
-#### Cuerpo del post:
-```json
-{
-    "email": "edwardElric@gmail.com",
-    "password": "philosopherStone",
-}
-```
-
-#### Respuestas:
-
- * 200:
-
-Se agrega un header Authentication con el token JWT.
-
-Body:
-```json
-{
-    "result": "ok"
-}
-```
-
-  * 404:
-
-Body:
-```json
-{
-    "result": "error",
-    "message": "Wrong User or password"
-}
-```
-
 ## NOTA
 
-Para los siguientes request se tiene que agregar el header **Authentication** con el token JWT, si este no se pasa o el usuario no existe la respuesta tienen que ser un **403**.
+Para los siguientes request se tiene que agregar el header **Authentication** con el token JWT, si este no se pasa o el usuario no existe la respuesta tienen que ser un **401**.
 
 ### GET /user
 
