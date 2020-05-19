@@ -4,7 +4,7 @@
 
 ## Info útil
 
-* Notas
+* [Notas][notas-google-sheet]
 * [Slides](slides/README.md)
 * [Calendario](Calendar.md)
 * [Arena Framework](http://arena.uqbar-project.org/)
@@ -19,7 +19,6 @@
 * [Práctica 1 » Modelado de Dominios](guias-practicas/practica1.md)
 * [Práctica 2 » Interfaces Desktop](guias-practicas/practica2.md)
 * [Práctica 3 » APIs REST](guias-practicas/practica3.md)
-* Práctica 4 » Interfaces Web
 
 ## Apuntes
 
@@ -108,3 +107,5 @@ Comandos _npm_ que vienen por default:
 * `npm test`: Corre los tests (generalmente en modo _watcher_)
 * `npm build`: Construye la aplicación en _modo production_ y guarda los archivos en el directorio `./dist`
 * `npm eject`: Quita las configuraciones default de react. No se recomienda utilizarlo.
+
+[notas-google-sheet]: <https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1Etk4yAhBGuUFgPuUZ24-ewPAKDJbfC5jtxrIsioVpSr4d68o1Uxrg6bIVTpC4PsRNh9A3-8M6dKa/pubhtml?gid=1387586583&single=true>
