@@ -11,4 +11,4 @@ Utilizando la **API** creada en el tp anterior se requiere hacer una pagina web.
 
 ## Mockup:
 
-TODO
+https://www.figma.com/file/7KDzydk5XUvH2FifedxSRY/Unqflix-web?node-id=0%3A1
