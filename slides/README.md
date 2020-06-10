@@ -2,18 +2,22 @@
 
 ## Slides
 
- 1. [Presentación / Introducción a UI](01.%20Presentacion%20-%20Introduccion%20a%20UI.pdf)
- 2. [Introducción a Kotlin](02.%20Kotlin.pdf)
- 3. [Aplicaciones Desktop / Arena Framework](03.%20Apps%20Desktop%20-%20MVC-MVVM%20-%20Binding%20-%20Arena.pdf)
- 4. [Windows, Validaciones y Excepciones](04.%20Windows,%20Validaciones%20y%20Excepciones.pdf)
- 5. [Transformers, Filters y Adapters](05.%20Transformers,%20Filters%20y%20Adapters.pdf)
- 6. [API REST](06.%20API%20REST.pdf)
+  1. [Presentación / Introducción a UI](01.%20Presentacion%20-%20Introduccion%20a%20UI.pdf)
+  2. [Introducción a Kotlin](02.%20Kotlin.pdf)
+  3. [Aplicaciones Desktop / Arena Framework](03.%20Apps%20Desktop%20-%20MVC-MVVM%20-%20Binding%20-%20Arena.pdf)
+  4. [Windows, Validaciones y Excepciones](04.%20Windows,%20Validaciones%20y%20Excepciones.pdf)
+  5. [Transformers, Filters y Adapters](05.%20Transformers,%20Filters%20y%20Adapters.pdf)
+  6. [API REST](06.%20API%20REST.pdf)
+  7. [Sesiones HTTP y JWT](07.%20Sesiones%20HTTP%20y%20JWT.pdf)
+  8. [Javascript](08.%20Javascript.pdf)
+  9. [HTML CSS Bootstrap GridLayout](09.%20HTML%20CSS%20Bootstrap%20GridLayout.pdf)
+ 10. [DOM](10.%20DOM.pdf)
 
 ## Youtube
 
  1. [Presentación de la Materia](https://www.youtube.com/watch?v=f3sJ6HEKZmE)
  2. [Introducción a las Interfaces de Usuario](https://www.youtube.com/watch?v=sPJPUU9SxH8)
- 3. [Introducción a Kotlin](https://www.youtube.com/watch?v=bE3lZgciDO4&t=3542s)
+ 3. [Introducción a Kotlin](https://www.youtube.com/watch?v=bE3lZgciDO4)
  4. [Crear e importar proyectos Kotlin con Maven](https://www.youtube.com/watch?v=4zVsbwi5nxU)
  5. [Aplicaciones Desktop & Introducción a Arena Framework](https://www.youtube.com/watch?v=X7XQWcCALnU)
  6. [Presentación TP1 y ejemplo simple de construcción aplicación Desktop con Arena](https://www.youtube.com/watch?v=7_xGqF23gUA)
@@ -21,3 +25,13 @@
  8. [ejemplo simple con Arena | validaciones, excepciones y ventanas](https://www.youtube.com/watch?v=Mti1prbXqGY)
  9. [Transformers, Filters y Adapters](https://www.youtube.com/watch?v=jsNBlQwCbyE)
 10. [API REST](https://www.youtube.com/watch?v=bp2OjtHd0zo)
+11. [API REST con Kotlin y Javalin | CRUD User](https://www.youtube.com/watch?v=IAlH1eh3LB0)
+12. [TP2 - API REST](https://www.youtube.com/watch?v=WLd5zvpQtgY)
+13. [Sesiones HTTP y JWT](https://www.youtube.com/watch?v=14oKlkArsCo)
+14. [Testing API REST Javalin con JUnit y Fuel](https://www.youtube.com/watch?v=fzO0dVaUGkw)
+15. [Ejercicio Javalin y JWT](https://www.youtube.com/watch?v=R6hcXttLJJc)
+16. [Ejercicio Javalin API](https://www.youtube.com/watch?v=Lc5tDqpDLfw)
+17. [JavaScript](https://www.youtube.com/watch?v=VcFhd4DE3FE)
+18. [HTML - CSS - Bootstrap - Grid Layout](https://www.youtube.com/watch?v=kGsCrweCn8s)
+19. [Presentación TP3 - WEB](https://www.youtube.com/watch?v=yHvrfsLJu0o)
+20. [DOM Manipulation](https://www.youtube.com/watch?v=F0mwiH9AopI)
