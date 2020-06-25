@@ -12,6 +12,7 @@
   8. [Javascript](08.%20Javascript.pdf)
   9. [HTML CSS Bootstrap GridLayout](09.%20HTML%20CSS%20Bootstrap%20GridLayout.pdf)
  10. [DOM](10.%20DOM.pdf)
+ 11. [React](11.%20React.pdf)
 
 ## Youtube
 
@@ -35,3 +36,8 @@
 18. [HTML - CSS - Bootstrap - Grid Layout](https://www.youtube.com/watch?v=kGsCrweCn8s)
 19. [Presentación TP3 - WEB](https://www.youtube.com/watch?v=yHvrfsLJu0o)
 20. [DOM Manipulation](https://www.youtube.com/watch?v=F0mwiH9AopI)
+21. [React StickyNotes](https://www.youtube.com/watch?v=NCzFwT0cGzg)
+22. [React](https://www.youtube.com/watch?v=XEw8DKst7o0)
+23. [React Router](https://www.youtube.com/watch?v=9PWH6NgXNHs)
+24. [AJAX y Promises](https://www.youtube.com/watch?v=_y-aCdIUQCk)
+25. [React Axios](https://www.youtube.com/watch?v=o6NMywopqoc)
