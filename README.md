@@ -5,7 +5,7 @@
 ## Info útil
 
 * [Notas][notas-google-sheet]
-* [Slides](slides/README.md)
+* [Clases](Clases.md)
 * [Calendario](Calendar.md)
 * [Arena Framework](http://arena.uqbar-project.org/)
 * [Kotlin by example](https://play.kotlinlang.org/byExample/overview)
@@ -105,7 +105,8 @@ Comandos _npm_ que vienen por default:
 
 * `npm start`: Levanta la aplicación en (generalmente) localhost:3000
 * `npm test`: Corre los tests (generalmente en modo _watcher_)
-* `npm build`: Construye la aplicación en _modo production_ y guarda los archivos en el directorio `./dist`
+* `npm build`: Construye la aplicación en _modo production_ y guarda los archivos
+               en el directorio `./dist`
 * `npm eject`: Quita las configuraciones default de react. No se recomienda utilizarlo.
 
-[notas-google-sheet]: <https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1Etk4yAhBGuUFgPuUZ24-ewPAKDJbfC5jtxrIsioVpSr4d68o1Uxrg6bIVTpC4PsRNh9A3-8M6dKa/pubhtml?gid=1387586583&single=true>
+[notas-google-sheet]: <https://docs.google.com/spreadsheets/d/e/2PACX-1vTjUKlQyIgbbuerYqgFAshf_AHTnQAsetkX2QQKi6oyNm0lX8zIkbTl8uu3LHk14meGIYuRMGu5J8bO/pubhtml?gid=1387586583&single=true>
