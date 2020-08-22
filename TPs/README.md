@@ -22,5 +22,10 @@ Dominio: <https://github.com/unq-ui/digital-wallet>
 
 ## 2019 - 1° Cuatrimestre
 
-- [TP1 » Desktop](2019s2/TP1-Desktop.md)
-- [TP2 » Web](2019s2/TP2-Web.md)
+- [TP1 » Desktop](2019s1/TP1-Desktop.md)
+- [TP2 » Web](2019s1/TP2-Web.md)
+
+## 2018 - 2° Cuatrimestre
+
+- [TP1 » Desktop](2018s2/TP1-Desktop.pdf)
+- [TP2 » Web](2018s2/TP2-Web.pdf)
