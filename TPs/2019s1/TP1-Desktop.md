@@ -1,6 +1,10 @@
-## TP1 >> Backend Desktop
+# UIs » TP1 » 1°C 2019
 
-Se requiere armar una aplicación de escritorio para poder administrar restaurantes. La aplicación deberá conocer con qué restaurantes cuenta y quienes son los usuarios registrados que podrán hacer pedidos por la plataforma.
+## Backend Desktop
+
+Se requiere armar una aplicación de escritorio para poder administrar restaurantes.
+La aplicación deberá conocer con qué restaurantes cuenta y quienes son los usuarios
+registrados que podrán hacer pedidos por la plataforma.
 Además, cada restaurant necesita conocer sus productos y sus menús.
 
 ### Información de Modelo
@@ -10,12 +14,12 @@ Además, cada restaurant necesita conocer sus productos y sus menús.
 * Listado de Restaurantes
 * Listado de Usuarios registrados
 * Medios de Pagos disponibles
-  * Efectivo
-  * Tarjeta de Crédito
-  * Tarjeta de Débito
-  * PayPal
-  * MercadoPago
-  * etc...
+  - Efectivo
+  - Tarjeta de Crédito
+  - Tarjeta de Débito
+  - PayPal
+  - MercadoPago
+  - etc...
 
 #### Restaurant
 
@@ -37,7 +41,7 @@ los productos y menús que ofrece ese restaurant.
 > Las coordenadas suelen expresarse en grados sexagesimales `(34°42'22.4"S, 58°16'42.6"W)`,
 > aunque también es común que se expresen en grados decimales `(-34.706228, -58.278509)`.
 > Esta es la información que utiliza cualquier sistema de GPS para navegar correctamente.
-> 
+>
 > (**) Según lo medios habilitados por la aplicación.
 
 #### Usuario Supervisor
@@ -63,10 +67,10 @@ los productos y menús que ofrece ese restaurant.
 * Restaurant
 * Menús
 * Estado (*)
-  * Entregado
-  * Pendiente
-  * En Camino
-  * Cancelado
+  - Entregado
+  - Pendiente
+  - En Camino
+  - Cancelado
 
 > (*) Los estados son fijos, o sea que los provee el código y no son administrables por la aplicación.
 
@@ -77,11 +81,11 @@ los productos y menús que ofrece ese restaurant.
 * Descripción
 * Precio
 * Categoría (*)
-  * Entrada
-  * Plato Principal
-  * Bebida sin alcohol
-  * Postre
-  * etc...
+  - Entrada
+  - Plato Principal
+  - Bebida sin alcohol
+  - Postre
+  - etc...
 
 Además los restaurantes pueden crear crear menús con diversos productos.
 
@@ -104,7 +108,7 @@ y el descuento aplicado a ese menú.
 
 1. Elegir un nombre de fantasía para la aplicación (que no sea _Rappi_, _PedidosYa_, etc...)
 2. Programar en Kotlin el modelo de datos en base al dominio especificado.
-3. Realizar todos los tests que considere pertinente. 
+3. Realizar todos los tests que considere pertinente.
 4. Se deberá poder buscar:
    1. restaurant por código (búsqueda exacta)
    2. restaurant por string (búsqueda parcial)
@@ -113,19 +117,19 @@ y el descuento aplicado a ese menú.
    5. menús por string en un restaurant dado
    6. menús y/o restaurantes por string
 5. Un usuario debe poder hacer un pedido con las siguientes características:
-   * El pedido debe contar con los siguientes elementos:
-     - Restaurant
-     - Listado de menús con su respectiva cantidad
-     - Medio de pago
-   * Se deberán validar los siguientes casos, tirando un excepción acorde si no se cumple que:
-     - Todos los menús de la lista deben pertenecer al mismo restaurant.
-     - El listado de menús no esté vacío.
-     - El medio de pago indicado sea aceptado por el restaurant.
-     - El restaurant se encuentra a más de 20km del domicilio del usuario
-   * Se puede asumir que el restaurant tiene stock suficiente para aceptar el pedido.
+   - El pedido debe contar con los siguientes elementos:
+     + Restaurant
+     + Listado de menús con su respectiva cantidad
+     + Medio de pago
+   - Se deberán validar los siguientes casos, tirando un excepción acorde si no se cumple que:
+     + Todos los menús de la lista deben pertenecer al mismo restaurant.
+     + El listado de menús no esté vacío.
+     + El medio de pago indicado sea aceptado por el restaurant.
+     + El restaurant se encuentra a más de 20km del domicilio del usuario
+   - Se puede asumir que el restaurant tiene stock suficiente para aceptar el pedido.
 6. Dar de alta a usuarios que quieran hacer utilizar la aplicación para hacer pedidos.
 7. Dado un usuario, poder conocer el historial de sus pedidos.
- 
+
 > Importante: En caso de existir decisiones que se deban tomar y no estén especificadas
 > en este enunciado, se puede elegir libremente la mejor decisión que consideren pertinente.
 
@@ -160,7 +164,6 @@ Dado un producto seleccionado, se deberá poder agregar un nuevo producto.
 
 ![Agregar Producto](img/2.AddProducto.png)
 
-
 #### Ventana de Modificar Producto
 
 Dado un producto seleccionado, se deberá poder modificar su información.
@@ -193,7 +196,7 @@ Dado un menú, se deberá poder visualizar los productos que contiene.
 Ventana para poder agregar un nuevo menú. Se deberá ir visualizando el precio del menú
 a medida que se van agregando productos.
 
-_OPCIONAL: Posibilidad de agregar nuevos productos desde la ventana de Menú_
+> _OPCIONAL: Posibilidad de agregar nuevos productos desde la ventana de Menú_
 
 ![Agregar Menú](img/6.AddMenu.png)
 

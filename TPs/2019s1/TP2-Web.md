@@ -1,12 +1,17 @@
-## TP2 >> Backend Desktop
+# UIs » TP2 » 1°C 2019
+
+## Frontend Web
 
 Se requiere una aplicación web para que los clientes puedan realizar pedidos a los restaurantes que tienen cerca.
 
 Para esto se requiere que los usuarios se puedan registrar y loguear.
 
+### Autenticación
+
 #### `POST /login`
- 
+
 Body:
+
 ```json
 {
   "username": "pepe@pepe.com",
@@ -17,6 +22,7 @@ Body:
 #### `POST /register`
 
 Body:
+
 ```json
 {
   "username": "pepe",
@@ -60,7 +66,6 @@ Respuesta:
 ```
 
 #### `GET /users/:id?include=orders`
-
 
 ```json
 {
@@ -123,6 +128,7 @@ Respuesta:
 #### `GET /search?q={data}&lat={lat}&long={long}`
 
 Respuesta:
+
 ```json
 {
   "restaurants":[
@@ -156,6 +162,7 @@ Respuesta:
 #### `GET /restaurant/:id`
 
 Respuesta:
+
 ```json
 {
   "data": {
@@ -195,6 +202,7 @@ Respuesta:
 #### `POST /deliver`
 
 Body:
+
 ```json
 {
   "restaurantId": 1,
@@ -218,6 +226,7 @@ Body:
 #### `PUT /deliver/:id`
 
 Body:
+
 ```json
 {
   "rating": 2
@@ -226,7 +235,9 @@ Body:
 
 ---
 
-Es importante notar que todas las consultas anteriores pueden llegar a dar errores si no se efectúan correctamente. Estos errores tienen que ser informados correctamente con los códigos HTTP correspondientes y mensaje amigable que informe lo sucedido.
+Es importante notar que todas las consultas anteriores pueden llegar a dar errores
+si no se efectúan correctamente. Estos errores tienen que ser informados correctamente
+con los códigos HTTP correspondientes y mensaje amigable que informe lo sucedido.
 
 Ej:
 
@@ -251,8 +262,8 @@ También pueden agregar más rutas en caso que necesiten.
 
 Pueden usar de guía el siguiente _prototype_ para darse una idea de cómo debería ser la aplicación web.
 
-https://xd.adobe.com/view/6ea8af8b-4bed-4300-4011-aaa45b939263-1899/
+<https://xd.adobe.com/view/6ea8af8b-4bed-4300-4011-aaa45b939263-1899/>
 
 assets y colores:
 
-https://xd.adobe.com/spec/f21ccda5-6d5e-45ba-6faa-19ad19d5b93d-842d/
+<https://xd.adobe.com/spec/f21ccda5-6d5e-45ba-6faa-19ad19d5b93d-842d/>
