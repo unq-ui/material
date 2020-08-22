@@ -14,6 +14,14 @@
 * [React](https://reactjs.org)
 * [Ejemplos de .gitignore](https://github.com/github/gitignore)
 
+## Trabajos Prácticos
+
+> PRÓXIMAMENTE
+
+## Trabajo Final Integrador
+
+> PRÓXIMAMENTE
+
 ## Guías Prácticas
 
 * [Práctica 1 » Modelado de Dominios](guias-practicas/practica1.md)
