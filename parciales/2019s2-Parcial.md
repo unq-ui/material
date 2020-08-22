@@ -4,10 +4,6 @@
 
 ![UNQ](../img/unq.png)
 
-Departamento de Ciencia y Tecnología
-
----
-
 ## Ejercicio 1
 
 1. Defina con sus palabras el concepto de Interfaz de Usuario.
