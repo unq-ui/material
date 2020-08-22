@@ -1,4 +1,4 @@
-# UIs » Parcial » 2°C 2020
+# UIs » Parcial » 2°C 2019
 
 > **26/11/2019**
 
@@ -116,4 +116,4 @@ class Home extends React.Component {
 Dada la siguiente imagen, escriba un componente React con el código necesario
 de HTML y CSS que permita generar ese mismo renderizado.
 
-![Tarantino](img/2020s2-ej5.png)
+![Tarantino](img/2019s2-parcial-ej5.png)
