@@ -6,7 +6,7 @@
 
 ## 2020 - 1° Cuatrimestre
 
-Dominio: <https://github.com/unq-ui/unqflix>
+Dominio: <https://github.com/unq-ui/2020s1-unqflix>
 
 - [TP1 » Desktop](2020s1/TP1-Desktop.md)
 - [TP2 » API](2020s1/TP2-API.md)
@@ -14,7 +14,7 @@ Dominio: <https://github.com/unq-ui/unqflix>
 
 ## 2019 - 2° Cuatrimestre
 
-Dominio: <https://github.com/unq-ui/digital-wallet>
+Dominio: <https://github.com/unq-ui/2019s2-digital-wallet>
 
 - [TP1 » Desktop](2019s2/TP1-Desktop.md)
 - [TP2 » API](2019s2/TP2-API.md)
