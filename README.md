@@ -16,7 +16,11 @@
 
 ## Trabajos Prácticos
 
-> PRÓXIMAMENTE
+Dominio: <https://github.com/unq-ui/2020s1-unqflix>
+
+* [TP1 » Desktop](TPs/2020s2/TP1-Desktop.md)
+* TP2 » API
+* TP3 » Web
 
 ## Trabajo Final Integrador
 
