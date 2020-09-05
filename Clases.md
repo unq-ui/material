@@ -12,4 +12,4 @@
 
 - Teórica: Aplicaciones Desktop / Intro a Arena Framework
   * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQbnLQYNdoy_8SnWtT2gBqDVZyuyBN3F3wuCtgGq3gAwFc4zT-kM9oRDyEMyGl0IbqqUqWBlrWXQhBx/pub?start=false&loop=false&delayms=3000)
-  * Clase grabada
+  * [Clase grabada](https://www.youtube.com/watch?v=N1XlUglgbdw)
