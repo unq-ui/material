@@ -8,6 +8,12 @@ Dominio: <https://github.com/unq-ui/2020s1-unqflix>
 - TP2 » API
 - TP3 » Web
 
+## Integrador Octubre 2020
+
+Dominio: <https://github.com/unq-ui/2020s1.i1-medium>
+
+- [Enunciado](2020s1/Integrador-Octubre.md)
+
 ## Anteriores
 
 ### 1° Cuatrimestre 2020
