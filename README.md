@@ -16,7 +16,7 @@
 
 ## Trabajos Prácticos
 
-Dominio: <https://github.com/unq-ui/2020s1-unqflix>
+Dominio: <https://github.com/unq-ui/2020s2-instagram>
 
 * [TP1 » Desktop](TPs/2020s2/TP1-Desktop.md)
 * TP2 » API

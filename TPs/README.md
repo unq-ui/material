@@ -2,7 +2,7 @@
 
 ## 2° Cuatrimestre 2020  
 
-Dominio: <https://github.com/unq-ui/2020s1-unqflix>
+Dominio: <https://github.com/unq-ui/2020s2-instagram>
 
 - [TP1 » Desktop](2020s2/TP1-Desktop.md)
 - TP2 » API
