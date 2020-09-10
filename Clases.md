@@ -16,3 +16,9 @@
   * [Clase grabada](https://www.youtube.com/watch?v=N1XlUglgbdw)
 - Práctica: Intro de Arena
   * [Clase grabada](https://www.youtube.com/watch?v=iTjsk72WoaQ)
+
+## 09/09 - 10/09
+
+- Teórica: Windows, Validaciones y Excepciones
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSyhKSjjh-H43oMN_IzLoUFNBcw_vH7DyG8KSVoeT5Qql9B6k15pTdAdRwPGViG279gpHehLmSPYMtd/pub?start=false&loop=false&delayms=3000)
+  * Clase grabada
