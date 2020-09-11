@@ -22,3 +22,5 @@
 - Teórica: Windows, Validaciones y Excepciones
   * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSyhKSjjh-H43oMN_IzLoUFNBcw_vH7DyG8KSVoeT5Qql9B6k15pTdAdRwPGViG279gpHehLmSPYMtd/pub?start=false&loop=false&delayms=3000)
   * Clase grabada
+- Práctica: Manejo de ventanas en Arena
+  * [Clase grabada](https://www.youtube.com/watch?v=MGkaqpY4ky0)
