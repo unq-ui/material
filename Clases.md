@@ -24,4 +24,4 @@
   * Clase grabada
 - Práctica: Manejo de ventanas en Arena
   * [Clase grabada](https://www.youtube.com/watch?v=MGkaqpY4ky0)
-  * [Codigo](https://github.com/unq-ui/ej-desktop-ToDoList)
+  * [Código](https://github.com/unq-ui/ej-desktop-ToDoList)
