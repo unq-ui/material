@@ -10,7 +10,7 @@ Dominio: <https://github.com/unq-ui/2020s2-instagram>
 
 ## Integrador Octubre 2020
 
-Dominio: <https://github.com/unq-ui/2020s1.i1-medium>
+Dominio: <https://github.com/unq-ui/2020s1-i1-medium>
 
 - [Enunciado](2020s1/Integrador-Octubre.md)
 

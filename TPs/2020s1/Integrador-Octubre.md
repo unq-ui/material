@@ -1,6 +1,6 @@
 # UIs » TP Integrador » Octubre 2020
 
-Utilizando el [dominio](https://github.com/unq-ui/2020s1.i1-medium)
+Utilizando el [dominio](https://github.com/unq-ui/2020s1-i1-medium)
 provisto por la cátedra construir una aplicación similar a la plataforma
 [Medium](https://medium.com/). El trabajo debe constar de una aplicación
 desktop, una API y una aplicación Web.
