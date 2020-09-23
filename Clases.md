@@ -25,3 +25,9 @@
 - Práctica: Manejo de ventanas en Arena
   * [Clase grabada](https://www.youtube.com/watch?v=MGkaqpY4ky0)
   * [Código](https://github.com/unq-ui/ej-desktop-ToDoList)
+
+## 23/09 - 24/09
+
+- Teórica: API REST
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vS2a-M8kHLrxznfrVt6uAuFIqsWGHmSqTnozSXuPSQeNleSx6OLN9292JETXWMPCDu4m-TTAtgrfuO4/pub?start=false&loop=false&delayms=3000)
+  * Clase grabada
