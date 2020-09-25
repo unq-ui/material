@@ -31,3 +31,7 @@
 - Teórica: API REST
   * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vS2a-M8kHLrxznfrVt6uAuFIqsWGHmSqTnozSXuPSQeNleSx6OLN9292JETXWMPCDu4m-TTAtgrfuO4/pub?start=false&loop=false&delayms=3000)
   * [Clase grabada](https://www.youtube.com/watch?v=6JUnq9nq9TU)
+  - Práctica: Introducción de Javalin
+  * [Clase grabada](https://www.youtube.com/watch?v=KWzOLJUn9yQ)
+  
+  
