@@ -39,3 +39,6 @@
 - Teórica: Sesiones HTTP y JWT | API Tessting
   * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSnIAbkK_5vFTvwRxOHSZSMDiQ84SIZcZSKQWEivKKK_n3vC417u3xp_oCN3IZfP-EUa5clBsOUy1cL/pub?start=false&loop=false&delayms=3000)
   * [Clase grabada](https://www.youtube.com/watch?v=bjfx_PWfOJ8)
+- Práctica: JWT
+  * [Clase grabada](https://www.youtube.com/watch?v=oLYDL567IhY)
+  * [Código](https://github.com/unq-ui/ej-api-todoList/tree/jwt)
