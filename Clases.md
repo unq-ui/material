@@ -34,4 +34,8 @@
 - Práctica: Introducción de Javalin
   * [Clase grabada](https://www.youtube.com/watch?v=KWzOLJUn9yQ)
   
-  
+## 30/09 - 01/10
+
+- Teórica: Sesiones HTTP y JWT | API Tessting
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSnIAbkK_5vFTvwRxOHSZSMDiQ84SIZcZSKQWEivKKK_n3vC417u3xp_oCN3IZfP-EUa5clBsOUy1cL/pub?start=false&loop=false&delayms=3000)
+  * [Clase grabada](https://www.youtube.com/watch?v=bjfx_PWfOJ8)
