@@ -42,3 +42,12 @@
 - Práctica: JWT
   * [Clase grabada](https://www.youtube.com/watch?v=oLYDL567IhY)
   * [Código](https://github.com/unq-ui/ej-api-todoList/tree/jwt)
+
+## 14/10 - 15/10
+
+- Teórica: Javascript
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRYAQQTIhnW5z3p5Uj4Im-ctBTP15vn3C7qxiDG66JWlEoOaD2eUEzxp1RVpA0QIrnwkRIrw8rQ_K_-/pub?start=false&loop=false&delayms=3000)
+  * [Clase del cuatri pasado](https://www.youtube.com/watch?v=VcFhd4DE3FE)
+- Teórica: HTML/CSS/Bootstrap/GridLayout
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRq8YEsg3Xim-Vzv3AJPXBP7gpJ79uaLv97iCF1nxUUkcJWFhIC80gEHNwnEYaRhnHayeYkAOc07fob/pub?start=false&loop=false&delayms=3000)
+  * [Clase del cuatri pasado](https://www.youtube.com/watch?v=kGsCrweCn8s)
