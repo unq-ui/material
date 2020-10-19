@@ -9,7 +9,7 @@ La aplicacion tiene que tener las siguientes funcionalidades:
 * Poder loguear a un usuario.
 * Poder registrar a un usuario nuevo.
 
-> NOTA: Todas las acciones siguientes se tiene que estar logueado, en caso contrario se tiene que redireccionar a la pantalla de loguin
+> NOTA: Todas las acciones siguientes se tiene que estar logueado, en caso contrario se tiene que redireccionar a la pantalla de login
 
 * Al loguearse con un usuario ver su timeline.
 * Poder ver el perfil de un usuario. (los post del usuario en cuestion)
