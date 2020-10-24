@@ -51,3 +51,12 @@
 - Teórica: HTML/CSS/Bootstrap/GridLayout
   * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRq8YEsg3Xim-Vzv3AJPXBP7gpJ79uaLv97iCF1nxUUkcJWFhIC80gEHNwnEYaRhnHayeYkAOc07fob/pub?start=false&loop=false&delayms=3000)
   * [Clase del cuatri pasado](https://www.youtube.com/watch?v=kGsCrweCn8s)
+  
+  ## 21/10 - 22/10
+
+- Teórica: Javascript/React
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRsgc9jTvLsdNswzYRZ3q90kAhW8ZMFIyZMoEEoIluOTLjR51_ifvauXhmhBa4OYAEzu1XOWPutKy8q/pub?start=false&loop=false&delayms=3000)
+  * [Clase del cuatri pasado](https://www.youtube.com/watch?v=F0mwiH9AopI&t=4516s)
+- Práctica: React
+  * [Clase grabada](https://www.youtube.com/watch?v=TSHDcp81Fkc)
+  * [Código](https://github.com/unq-ui/ej-web-todo-list)
