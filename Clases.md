@@ -52,7 +52,7 @@
   * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRq8YEsg3Xim-Vzv3AJPXBP7gpJ79uaLv97iCF1nxUUkcJWFhIC80gEHNwnEYaRhnHayeYkAOc07fob/pub?start=false&loop=false&delayms=3000)
   * [Clase del cuatri pasado](https://www.youtube.com/watch?v=kGsCrweCn8s)
   
-  ## 21/10 - 22/10
+## 21/10 - 22/10
 
 - Teórica: Javascript/React
   * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRsgc9jTvLsdNswzYRZ3q90kAhW8ZMFIyZMoEEoIluOTLjR51_ifvauXhmhBa4OYAEzu1XOWPutKy8q/pub?start=false&loop=false&delayms=3000)
@@ -60,3 +60,9 @@
 - Práctica: React
   * [Clase grabada](https://www.youtube.com/watch?v=TSHDcp81Fkc)
   * [Código](https://github.com/unq-ui/ej-web-todo-list)
+
+## 28/10 - 29/10
+
+- Teórica: React
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRuug-z19MxzbohcWrr6WjaM2KdlAR26GwYKbeg38zc0fvvmdyoYqGkrDoB6PAlFYjdr8ndt4NfrS55/pub?start=false&loop=false&delayms=3000)
+  * [Clase grabada](https://youtu.be/anHNTT4Zt-0)
