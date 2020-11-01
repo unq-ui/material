@@ -66,3 +66,6 @@
 - Teórica: React
   * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRuug-z19MxzbohcWrr6WjaM2KdlAR26GwYKbeg38zc0fvvmdyoYqGkrDoB6PAlFYjdr8ndt4NfrS55/pub?start=false&loop=false&delayms=3000)
   * [Clase grabada](https://youtu.be/anHNTT4Zt-0)
+- Práctica: React
+  * [Clase grabada](https://www.youtube.com/watch?v=id1aetifNsc)
+  * [Código](https://github.com/unq-ui/ej-web-todo-list/tree/hooks)
