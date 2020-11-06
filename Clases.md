@@ -69,3 +69,11 @@
 - Práctica: React
   * [Clase grabada](https://www.youtube.com/watch?v=id1aetifNsc)
   * [Código](https://github.com/unq-ui/ej-web-todo-list/tree/hooks)
+  
+## 04/11 - 05/11
+
+- Teórica: React
+  * [Clase grabada](https://www.youtube.com/watch?v=_y-aCdIUQCk)
+- Práctica: React
+  * [Clase grabada](https://www.youtube.com/watch?v=XmQ9djqjnFM)
+  * [Código](https://github.com/unq-ui/ej-web-todo-list/tree/hoocks-routes)
