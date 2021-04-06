@@ -16,9 +16,9 @@
 
 ## Trabajos Prácticos
 
-Dominio: <https://github.com/unq-ui/2020s2-instagram>
+Dominio: PRÓXIMAMENTE
 
-* [TP1 » Desktop](TPs/2020s2/TP1-Desktop.md)
+* TP1 » Desktop
 * TP2 » API
 * TP3 » Web
 
