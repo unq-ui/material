@@ -4,7 +4,7 @@
 
 ## Info útil
 
-* [Notas][notas-google-sheet]
+* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vRN1aEH2bmXDQ6yC17ScQeNpbJF_Gsczk9DplZNG5wXb7NW9MHRDZFrYp8PBn2KZAzlWgTNh0fmU2eM/pubhtml?gid=1387586583&single=true)
 * [Clases](Clases.md)
 * [Calendario](Calendar.md)
 * [Arena Framework](http://arena.uqbar-project.org/)
