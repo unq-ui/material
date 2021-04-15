@@ -8,3 +8,11 @@
 - Práctica: Intro a Kotlin
   * [Slides](https://docs.google.com/presentation/d/1pYVM7_5pb427QPWYrD2J8PWgj8ZQok7NZXGzTFd67EY/edit?usp=sharing)
   * [Clase grabada](https://youtu.be/-NKGwKXChsc)
+
+## 14/04 - 15/04
+
+- Teórica: Apps Desktop
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQbnLQYNdoy_8SnWtT2gBqDVZyuyBN3F3wuCtgGq3gAwFc4zT-kM9oRDyEMyGl0IbqqUqWBlrWXQhBx/pub?start=false&loop=false&delayms=3000&slide=id.g35f391192_00)
+  * [Clase grabada](https://www.youtube.com/watch?v=-QkMLtjav5s)
+- Práctica: Intro a Arena
+  
