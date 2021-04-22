@@ -21,7 +21,7 @@
 
 - Teórica: Apps Desktop
   * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSyhKSjjh-H43oMN_IzLoUFNBcw_vH7DyG8KSVoeT5Qql9B6k15pTdAdRwPGViG279gpHehLmSPYMtd/pub?start=false&loop=false&delayms=3000&slide=id.g95383da0e1_3_50)
-  * [Clase grabada]()
+  * [Clase grabada](https://youtu.be/UVawh9hVKZE)
 - Práctica: Intro a Arena
   * [Clase grabada]()
   
