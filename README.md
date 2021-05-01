@@ -18,7 +18,7 @@
 
 Dominio: PRÓXIMAMENTE
 
-* TP1 » Desktop
+* [TP1 » Desktop](https://github.com/unq-ui/2021s1-twitter)
 * TP2 » API
 * TP3 » Web
 
