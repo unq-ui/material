@@ -27,7 +27,7 @@
   
 ## 05/05 - 06/05
 - Teórica: APIs
-  * [Slides]()
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vS2a-M8kHLrxznfrVt6uAuFIqsWGHmSqTnozSXuPSQeNleSx6OLN9292JETXWMPCDu4m-TTAtgrfuO4/pub?start=false&loop=false&delayms=3000&slide=id.g35f391192_00)
   * [Clase grabada](https://www.youtube.com/watch?v=WhMlF_rtRj8)
 - Práctica: Javalin
   * [Clase grabada](https://www.youtube.com/watch?v=eW9bW8pWIW4)
