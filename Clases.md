@@ -31,3 +31,10 @@
   * [Clase grabada](https://www.youtube.com/watch?v=WhMlF_rtRj8)
 - Práctica: Javalin
   * [Clase grabada](https://www.youtube.com/watch?v=eW9bW8pWIW4)
+
+## 12/05 - 12/05
+- Teórica: JWT
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSnIAbkK_5vFTvwRxOHSZSMDiQ84SIZcZSKQWEivKKK_n3vC417u3xp_oCN3IZfP-EUa5clBsOUy1cL/pub?start=false&loop=false&delayms=3000&slide=id.g35f391192_00)
+  * [Clase grabada](https://youtu.be/V0oF8LFfhiA)
+- Práctica: Ejercicio
+  * [Clase grabada](https://youtu.be/36d-gWCakDw)
