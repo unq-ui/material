@@ -38,3 +38,11 @@
   * [Clase grabada](https://youtu.be/V0oF8LFfhiA)
 - Práctica: Ejercicio
   * [Clase grabada](https://youtu.be/36d-gWCakDw)
+
+## 26/05 - 27/05
+- Teórica: Js y HTML
+  * [Slides Js](https://docs.google.com/presentation/d/e/2PACX-1vRYAQQTIhnW5z3p5Uj4Im-ctBTP15vn3C7qxiDG66JWlEoOaD2eUEzxp1RVpA0QIrnwkRIrw8rQ_K_-/pub?start=false&loop=false&delayms=3000)
+  * [Slides Html y css](https://docs.google.com/presentation/d/e/2PACX-1vRq8YEsg3Xim-Vzv3AJPXBP7gpJ79uaLv97iCF1nxUUkcJWFhIC80gEHNwnEYaRhnHayeYkAOc07fob/pub?start=false&loop=false&delayms=3000)
+  * [Clase grabada](https://youtu.be/QLBxHiCrWo0)
+- Práctica: Ejercicio
+  * [Clase grabada]()
