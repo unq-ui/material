@@ -20,7 +20,7 @@ Dominio: PRÓXIMAMENTE
 
 * [TP1 » Desktop](https://github.com/unq-ui/2021s1-twitter)
 * [TP2 » API](TPs/2021s1/TP2-API.md)
-* TP3 » Web
+* [TP3 » Web](TPs/2021s1/TP3-WEB.md)
 
 ## Trabajo Final Integrador
 
