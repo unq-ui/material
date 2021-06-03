@@ -46,3 +46,11 @@
   * [Clase grabada](https://youtu.be/QLBxHiCrWo0)
 - Práctica: Ejercicio
   * [Clase grabada]()
+
+## 02/06 - 03/06
+- Teórica: Js y React
+  * [Slides Js](https://docs.google.com/presentation/d/e/2PACX-1vRsgc9jTvLsdNswzYRZ3q90kAhW8ZMFIyZMoEEoIluOTLjR51_ifvauXhmhBa4OYAEzu1XOWPutKy8q/pub?start=false&loop=false&delayms=3000)
+  * [Clase grabada](https://youtu.be/Trk73u4d164)
+- Práctica: Ejercicio
+  * [Clase grabada]()
+
