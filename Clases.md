@@ -45,19 +45,20 @@
   * [Slides Html y css](https://docs.google.com/presentation/d/e/2PACX-1vRq8YEsg3Xim-Vzv3AJPXBP7gpJ79uaLv97iCF1nxUUkcJWFhIC80gEHNwnEYaRhnHayeYkAOc07fob/pub?start=false&loop=false&delayms=3000)
   * [Clase grabada](https://youtu.be/QLBxHiCrWo0)
 - Práctica: Ejercicio
-  * [Clase grabada]()
+  * [Clase grabada](https://www.youtube.com/watch?v=ECqURyAUlBA)
 
 ## 02/06 - 03/06
 - Teórica: Js y React
   * [Slides Js](https://docs.google.com/presentation/d/e/2PACX-1vRsgc9jTvLsdNswzYRZ3q90kAhW8ZMFIyZMoEEoIluOTLjR51_ifvauXhmhBa4OYAEzu1XOWPutKy8q/pub?start=false&loop=false&delayms=3000)
   * [Clase grabada](https://youtu.be/Trk73u4d164)
 - Práctica: Ejercicio
-  * [Clase grabada]()
+  * [Clase grabada](https://www.youtube.com/watch?v=ECqURyAUlBA)
 
 ## 09/06 - 10/06
 - Teórica: Js y React
   * [Slides Js](https://docs.google.com/presentation/d/e/2PACX-1vRuug-z19MxzbohcWrr6WjaM2KdlAR26GwYKbeg38zc0fvvmdyoYqGkrDoB6PAlFYjdr8ndt4NfrS55/pub?start=false&loop=false&delayms=3000)
   * [Clase grabada](https://youtu.be/E1G6b50chws)
 - Práctica: Ejercicio
-  * [Clase grabada]()
+  * [Clase grabada](https://www.youtube.com/watch?v=F2lvL1trdSE)
   
+
