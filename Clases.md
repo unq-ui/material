@@ -65,7 +65,7 @@
 - Teórica: React y Axios
   * [Clase grabada](https://youtu.be/NL4lN0UGd4Y)
 - Práctica: Ejercicio
-  * [Clase grabada]()
+  * [Clase grabada](https://youtu.be/miny3lZhVy8)
   
   
 
