@@ -4,7 +4,8 @@
 
 ## Info útil
 
-* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vRN1aEH2bmXDQ6yC17ScQeNpbJF_Gsczk9DplZNG5wXb7NW9MHRDZFrYp8PBn2KZAzlWgTNh0fmU2eM/pubhtml?gid=1387586583&single=true)
+* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRYIEuxZzZtIt8WoFYJVzwpLgb-rf8GNZFSWaTYI9v5lm5JulxnRlgyZCcGWP2U6ZKjobL4ytb0UMB/pubhtml?gid=1387586583&single=true)
+* [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRYIEuxZzZtIt8WoFYJVzwpLgb-rf8GNZFSWaTYI9v5lm5JulxnRlgyZCcGWP2U6ZKjobL4ytb0UMB/pubhtml?gid=394499309&single=true)
 * [Clases](Clases.md)
 * [Calendario](Calendar.md)
 * [Arena Framework](http://arena.uqbar-project.org/)
@@ -18,9 +19,9 @@
 
 Dominio: PRÓXIMAMENTE
 
-* [TP1 » Desktop](https://github.com/unq-ui/2021s1-twitter)
-* [TP2 » API](TPs/2021s1/TP2-API.md)
-* [TP3 » Web](TPs/2021s1/TP3-WEB.md)
+* [TP1 » Desktop](TPs/2021s2/TP1-ARENA.md)
+* [TP2 » API](TPs/2021s2/TP2-API.md)
+* [TP3 » Web](TPs/2021s2/TP3-WEB.md)
 
 ## Trabajo Final Integrador
 
@@ -121,5 +122,3 @@ Comandos _npm_ que vienen por default:
 * `npm build`: Construye la aplicación en _modo production_ y guarda los archivos
                en el directorio `./dist`
 * `npm eject`: Quita las configuraciones default de react. No se recomienda utilizarlo.
-
-[notas-google-sheet]: <https://docs.google.com/spreadsheets/d/e/2PACX-1vTjUKlQyIgbbuerYqgFAshf_AHTnQAsetkX2QQKi6oyNm0lX8zIkbTl8uu3LHk14meGIYuRMGu5J8bO/pubhtml?gid=1387586583&single=true>
