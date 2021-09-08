@@ -1,34 +1,33 @@
 # Calendario
 
-- `07/04` Intro Materia / Intro UI / Kotlin
-- `08/04` Instalar IntelliJ / Ejemplo Kotlin / Ejercicios Mockups
-- `14/04` Aplicaciones Desktop / MVC / MVVM / Binding / Componentes / Adapters / Filters / Transformers
-- `15/04` Explicar Maven / Ejercicio Arena / Presentación TP1
-- `21/04` Windows / Validaciones / Excepciones
-- `22/04` Ejercicio Arena / Consultas
-- `28/04` Consultas TP
-- `29/04` Entrega TP1
-- `05/05` Stateless vs Stateful / HTTP / API REST
-- `06/05` Configuración Javalin / Ejercicio Javalin / Presentación TP2
-- `12/05` Auth JWT / Testing REST
-- `13/05` Ejercicios / Consultas
-- `19/05` Consultas TP
-- `20/05` Entrega TP2
-- `26/05` Apps Web / Javascript / HTML / CSS / Bootstrap
-- `27/05` Ambiente Javascript / Ejercicio JS / Bootstrap
-- `02/06` DOM Manipulation / JS DOM / React sin JSX / React con JSX
-- `03/06` Create-React-App / Ejercicio React / Presentación TP3
-- `09/06` React: Componentes / JSX / State / Binding / Hooks / Routing
-- `10/06` Ejercicio React: Class vs Hooks
-- `16/06` AJAX / SPA / Local Storage
-- `17/06` Ejercicio React usando API / Auth JWT contra API / Consultas a API con Axios
-- `23/06` Consultas
-- `24/06` Consultas
-- `30/06` Consultas
-- `01/07` Entrega TP3
-- `07/07` Presentación Trabajo Final Integrador
-- `08/07` Consultas
-- `14/07` Consultas
-- `15/07` Fecha Límite de Entregas / Recuperatorios TPs / Trabajo Final Integrador
-- `21/07` Cierre de actas
-- `22/07` Cierre de actas
+- `01/9` Intro Materia - Kotlin - Maven
+- `02/9` Instalar IntelliJ - Ejercicio Kotlin
+- `08/9` Aplicaciones Desktop - MVC / MVP / MVVM | Binding - Componentes - Windows - Adapters / Filters / Transformers
+- `09/9` Ejercicio Arena - Presentación TP1
+- `15/9` Validaciones - Excepciones
+- `16/9` Ejercicios Arena - Consultas
+- `22/9` Consultas TP
+- `23/9` Entrega TP1
+- `29/9` Stateless vs Stateful - HTTP - API REST
+- `30/9` Configuración de proyectos Javalin - Ejercicio Javalin - Presentación TP2
+- `06/10` Auth JWT - Testing REST: ej-api-twitter
+- `07/10` Ejercicios / Consultas
+- `13/10` Consultas TP
+- `14/10` Entrega TP2
+- `20/10` ¿Programación Funcional? - ¿Intro Apps Web? - Javascript - HTML / CSS / Bootstrap
+- `21/10` Ambiente Javascript - Ejercicio JS / Bootstrap
+- `27/10` DOM Manipulation - Ejercicio: ej-javascript-dom - JS DOM / React sin JSX / React con JSX React POSTA
+- `28/10` Create-React-App - Ejercicio React - Presentación TP3
+- `03/11` React: Componentes / JSX - State / Binding - Hooks - Routing
+- `10/11` AJAX / SPA - Ejercicio: ej-web-ajax
+- `11/11` Ejercicio React usando API - Auth JWT contra API - Local Storage - Consultas a API con Axios
+- `17/11` Consultas
+- `18/11` ¿Ejercicio? - Consultas - ¿Testing de Componentes React?
+- `24/11` Consultas
+- `25/11` Entrega TP3 Presentación Trabajo Final Integrador
+- `01/12` Consultas
+- `02/12` Consultas
+- `08/12` Feriado
+- `09/12` Fecha Límite de Entregas - Recuperatorios TPs - Trabajo Final Integrador
+- `15/12` NO HAY CLASE / Cierre de actas
+- `16/12` NO HAY CLASE / Cierre de actas
