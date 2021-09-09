@@ -44,6 +44,6 @@ _Algunas aclaraciones:_
 
 #### Agregar y editar una playlist
 
-> Cuando se edita un tweet se deben cargar los datos previos.
+> Cuando se edita una playlist se deben cargar los datos previos.
 
-![Agregar o editar un Tweet](img/addOrEdit.png)
+![Agregar o editar una playlist](img/addOrEdit.png)
