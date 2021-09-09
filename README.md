@@ -17,9 +17,9 @@
 
 ## Trabajos Prácticos
 
-Dominio: PRÓXIMAMENTE
+Dominio: https://github.com/unq-ui/unq-spotify
 
-* [TP1 » Desktop](TPs/2021s2/TP1-ARENA.md)
+* [TP1 » Desktop](TPs/2021s2/TP1-Desktop.md)
 * [TP2 » API](TPs/2021s2/TP2-API.md)
 * [TP3 » Web](TPs/2021s2/TP3-WEB.md)
 
