@@ -38,7 +38,7 @@ oficial: <http://maven.apache.org/pom.html#What_is_the_POM>
 <dependency>
    <groupId>com.github.unq-ui</groupId>
    <artifactId>arena-kotlin-extensions</artifactId>
-   <version>1.3.0</version>
+   <version>1.4.0</version>
 </dependency>
 ```
 
