@@ -1,20 +1,22 @@
 # Trabajo Prácticos
 
-## 2° Cuatrimestre 2020  
+### 2° Cuatrimestre 2021
+
+Dominio: <https://github.com/unq-ui/unq-spotify>
+
+- [TP1 » Desktop](2021s2/TP1-Desktop.md)
+- [TP2 » API](2021s2/TP2-API.md)
+- [TP3 » Web](2021s2/TP3-Web.md)
+
+## Anteriores
+
+### 2° Cuatrimestre 2020  
 
 Dominio: <https://github.com/unq-ui/2020s2-instagram>
 
 - [TP1 » Desktop](2020s2/TP1-Desktop.md)
-- TP2 » API
-- TP3 » Web
-
-## Integrador Octubre 2020
-
-Dominio: <https://github.com/unq-ui/2020s1-i1-medium>
-
-- [Enunciado](2020s1/Integrador-Octubre.md)
-
-## Anteriores
+- [TP2 » API](2020s2/TP2-API.md)
+- [TP3 » Web](2020s2/TP3-Web.md)
 
 ### 1° Cuatrimestre 2020
 
