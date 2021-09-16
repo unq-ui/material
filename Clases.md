@@ -16,3 +16,13 @@
   * [Clase grabada](https://youtu.be/IUi-zk9_Nhw)
 - Práctica: 
   * []()
+
+## 15/09 - 16/09
+
+- Teórica: Validaciones
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSyhKSjjh-H43oMN_IzLoUFNBcw_vH7DyG8KSVoeT5Qql9B6k15pTdAdRwPGViG279gpHehLmSPYMtd/pub?start=false&loop=false&delayms=3000)
+  * [Clase grabada](https://youtu.be/IvZoqmEoQZ0)
+- Práctica: 
+  * []()
+
+
