@@ -25,4 +25,10 @@
 - Práctica: 
   * []()
 
+## 29/09 - 30/09
 
+- Teórica: Api
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vS2a-M8kHLrxznfrVt6uAuFIqsWGHmSqTnozSXuPSQeNleSx6OLN9292JETXWMPCDu4m-TTAtgrfuO4/pub?start=false&loop=false&delayms=60000)
+  * [Clase grabada](https://youtu.be/Gcta-uEEVpI)
+- Práctica: 
+  * []()
