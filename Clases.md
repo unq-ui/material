@@ -32,3 +32,13 @@
   * [Clase grabada](https://youtu.be/Gcta-uEEVpI)
 - Práctica: 
   * []()
+
+## 06/10 - 07/10
+
+- Teórica: Api
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSnIAbkK_5vFTvwRxOHSZSMDiQ84SIZcZSKQWEivKKK_n3vC417u3xp_oCN3IZfP-EUa5clBsOUy1cL/pub?start=false&loop=false&delayms=3000)
+  * [Clase grabada](https://youtu.be/IIHgcbx3v5c)
+- Práctica: 
+  * []()
+
+
