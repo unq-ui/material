@@ -41,4 +41,23 @@
 - Práctica: 
   * []()
 
+## 20/10 - 21/10
+
+- Teórica: HTML
+  * [Slides HTML](https://docs.google.com/presentation/d/e/2PACX-1vRq8YEsg3Xim-Vzv3AJPXBP7gpJ79uaLv97iCF1nxUUkcJWFhIC80gEHNwnEYaRhnHayeYkAOc07fob/pub?start=false&loop=false&delayms=3000)
+  * [Slides JS](https://docs.google.com/presentation/d/e/2PACX-1vRYAQQTIhnW5z3p5Uj4Im-ctBTP15vn3C7qxiDG66JWlEoOaD2eUEzxp1RVpA0QIrnwkRIrw8rQ_K_-/pub?start=false&loop=false&delayms=3000)
+  * [Clase grabada](https://youtu.be/eSIQNaphnNE)
+- Práctica: 
+  * []()
+
+## 27/10 - 28/10
+
+- Teórica: HTML
+  * [Slides DOM](https://docs.google.com/presentation/d/e/2PACX-1vRsgc9jTvLsdNswzYRZ3q90kAhW8ZMFIyZMoEEoIluOTLjR51_ifvauXhmhBa4OYAEzu1XOWPutKy8q/pub?start=false&loop=false&delayms=3000)
+  * [Slides React](https://docs.google.com/presentation/d/e/2PACX-1vRuug-z19MxzbohcWrr6WjaM2KdlAR26GwYKbeg38zc0fvvmdyoYqGkrDoB6PAlFYjdr8ndt4NfrS55/pub?start=false&loop=false&delayms=3000)
+  * [Clase grabada](https://youtu.be/J8rYS4-Ym4I)
+- Práctica: 
+  * []()
+
+https://youtu.be/eSIQNaphnNE
 
