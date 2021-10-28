@@ -59,5 +59,3 @@
 - Práctica: 
   * []()
 
-https://youtu.be/eSIQNaphnNE
-
