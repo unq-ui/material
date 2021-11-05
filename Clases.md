@@ -59,3 +59,11 @@
 - Práctica: 
   * []()
 
+## 03/11 - 04/11
+
+- Teórica: Axios y React router
+  * [Clase grabada](https://youtu.be/Gr7_kM3tsaA)
+- Práctica: 
+  * []()
+
+
