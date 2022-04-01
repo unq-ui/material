@@ -65,6 +65,54 @@ Ejemplo de cómo debe quedar:
 
 ![ej2](_img/cookbook-Arena-2.png)
 
+## 3.c Agregar mirror para repositorios de Arena
+
+A partir de la version 3.8.1 Maven ya no acepta repositorios que no esten subidos a una red con seguridad, por lo que necesitamos agregar una configuracion para poder descargar las dependencias de Arena.
+
+Primero necesitamos decirle a IntelliJ que use una configuracion local del proyecto yendo a `Build, Execution, Deployment / Build Tools / Maven` y tildando la opcion `Use settings from .mvn/maven.config`.
+
+![mirror](_img/cookbook-Arena-10.png)
+
+Luego, en la raiz del proyecto creamos una carpeta llamada `.mvn` y dentro de esa carpeta los siguientes archivos.
+
+Archivo `maven.config` donde le vamos a decir donde esta nuestra configuracion local, con este contenido.
+
+```xml
+--settings ./.mvn/local-settings.xml
+```
+
+Y por ultimo un archivo `local-settings.xml` donde vamos a colocar nuestras reglas nuevas.
+
+```xml
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd">
+    <mirrors>
+        <mirror>
+            <id>uqbar-mirror</id>
+            <mirrorOf>uqbar</mirrorOf>
+            <name/>
+            <url>http://maven.uqbar.org/releases/</url>
+            <blocked>false</blocked>
+        </mirror>
+        <mirror>
+            <id>uqbar-wiki.org-releases-mirror</id>
+            <mirrorOf>uqbar-wiki.org-releases</mirrorOf>
+            <name />
+            <url>http://uqbar-wiki.org/mvn/releases</url>
+            <blocked>false</blocked>
+        </mirror>
+        <mirror>
+            <id>uqbar-wiki.org-snapshots-mirror</id>
+            <mirrorOf>uqbar-wiki.org-snapshots</mirrorOf>
+            <name />
+            <url>http://uqbar-wiki.org/mvn/snapshots</url>
+            <blocked>false</blocked>
+        </mirror>
+    </mirrors>
+</settings>
+```
+
 ## 4. Crear una aplicación con ventana Simple
 
 ### 4.a. Crear una entidad Simple
