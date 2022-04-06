@@ -26,16 +26,16 @@ _Algunas aclaraciones:_
 
 #### Vista del usuario
 
-![User List](img/user.png)
+![User List](img/user.PNG)
 
 #### Crear y editar categoría
 
 > Cuando se edita una categoría se deben cargar los datos previos.
 
-![Agregar o editar una categoría](img/CrearEditarcategoria.png)
+![Agregar o editar una categoría](img/CrearEditarcategoria.PNG)
 
 #### Agregar y editar una película
 
 > Cuando se edita una película se deben cargar los datos previos.
 
-![Agregar o editar una Película](img/CrearEditarPelicula.png)
+![Agregar o editar una Película](img/CrearEditarPelicula.PNG)
