@@ -32,7 +32,7 @@ _Algunas aclaraciones:_
 
 > Cuando se edita una categoría se deben cargar los datos previos.
 
-![Agregar o editar una categoría](img/CrearEditarcategoria.PNG)
+![Agregar o editar una categoría](img/CrearEditarCategoria.PNG)
 
 #### Agregar y editar una película
 
