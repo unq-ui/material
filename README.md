@@ -4,8 +4,8 @@
 
 ## Info útil
 
-* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRYIEuxZzZtIt8WoFYJVzwpLgb-rf8GNZFSWaTYI9v5lm5JulxnRlgyZCcGWP2U6ZKjobL4ytb0UMB/pubhtml?gid=1387586583&single=true)
-* [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRYIEuxZzZtIt8WoFYJVzwpLgb-rf8GNZFSWaTYI9v5lm5JulxnRlgyZCcGWP2U6ZKjobL4ytb0UMB/pubhtml?gid=394499309&single=true)
+* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vQfeAYtwM9KrQlyuehi4cAXK0gi09ltBfmkVJXPhB0sWP5gWD3zROxlCP5LP06qA72pXYctnIVcxif7/pubhtml?gid=1387586583&single=true)
+* [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vQfeAYtwM9KrQlyuehi4cAXK0gi09ltBfmkVJXPhB0sWP5gWD3zROxlCP5LP06qA72pXYctnIVcxif7/pubhtml?gid=394499309&single=true)
 * [Clases](Clases.md)
 * [Calendario](Calendar.md)
 * [Arena Framework](http://arena.uqbar-project.org/)
@@ -17,11 +17,11 @@
 
 ## Trabajos Prácticos
 
-Dominio: https://github.com/unq-ui/unq-spotify
+Dominio: https://github.com/unq-ui/2022s1-rottenTomatoes
 
-* [TP1 » Desktop](TPs/2021s2/TP1-Desktop.md)
-* [TP2 » API](TPs/2021s2/TP2-API.md)
-* [TP3 » Web](TPs/2021s2/TP3-WEB.md)
+* [TP1 » Desktop](TPs/2022s1/TP1-Desktop.md)
+* [TP2 » API](TPs/2022s1/TP2-API.md)
+* [TP3 » Web](TPs/2022s1/TP3-WEB.md)
 
 ## Trabajo Final Integrador
 
