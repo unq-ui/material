@@ -25,7 +25,7 @@ Dominio: https://github.com/unq-ui/2022s1-rottenTomatoes
 
 ## Trabajo Final Integrador
 
-> PRÓXIMAMENTE
+* [TP Integrador](TFIs/2022s1-TFI.md)
 
 ## Guías Prácticas
 
