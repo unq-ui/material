@@ -17,15 +17,15 @@
 
 ## Trabajos Prácticos
 
-Dominio: https://github.com/unq-ui/2022s1-rottenTomatoes
+Dominio: https://github.com/unq-ui/tiktok-model
 
-* [TP1 » Desktop](TPs/2022s1/TP1-Arena.md)
-* [TP2 » API](TPs/2022s1/TP2-API.md)
-* [TP3 » Web](TPs/2022s1/TP3-WEB.md)
+* [TP1 » Desktop](TPs/2022s2/TP1-Arena.md)
+* [TP2 » API](TPs/2022s2/TP2-API.md)
+* [TP3 » Web](TPs/2022s2/TP3-WEB.md)
 
 ## Trabajo Final Integrador
 
-* [TP Integrador](TFIs/2022s1-TFI.md)
+* [TP Integrador](TFIs/2022s2-TFI.md)
 
 ## Guías Prácticas
 
