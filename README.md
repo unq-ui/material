@@ -4,8 +4,8 @@
 
 ## Info útil
 
-* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vQfeAYtwM9KrQlyuehi4cAXK0gi09ltBfmkVJXPhB0sWP5gWD3zROxlCP5LP06qA72pXYctnIVcxif7/pubhtml?gid=1387586583&single=true)
-* [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vQfeAYtwM9KrQlyuehi4cAXK0gi09ltBfmkVJXPhB0sWP5gWD3zROxlCP5LP06qA72pXYctnIVcxif7/pubhtml?gid=394499309&single=true)
+* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vQYoCGc0VTxICdwuFdCJ6oVci6KfrofOuHq-3r5uUHovoR1dCD9f_uKYCoLXNddX7M7RxabSOwUxj7O/pubhtml?gid=1387586583&single=true)
+* [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vQYoCGc0VTxICdwuFdCJ6oVci6KfrofOuHq-3r5uUHovoR1dCD9f_uKYCoLXNddX7M7RxabSOwUxj7O/pubhtml?gid=394499309&single=true)
 * [Clases](Clases.md)
 * [Calendario](Calendar.md)
 * [Arena Framework](http://arena.uqbar-project.org/)
