@@ -51,6 +51,7 @@ Se necesitan las siguientes funcionalidades:
 ## /trend/:trendName
 
 * Poder loguearme.
+* Poder buscar.
 * Listar el resultado.
 * Entrar a cada post.
 * Si estoy logueado:
