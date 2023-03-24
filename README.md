@@ -8,34 +8,29 @@
 * [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vQYoCGc0VTxICdwuFdCJ6oVci6KfrofOuHq-3r5uUHovoR1dCD9f_uKYCoLXNddX7M7RxabSOwUxj7O/pubhtml?gid=394499309&single=true)
 * [Clases](Clases.md)
 * [Calendario](Calendar.md)
-* [Arena Framework](http://arena.uqbar-project.org/)
 * [Kotlin by example](https://play.kotlinlang.org/byExample/overview)
 * [Javalin](https://javalin.io/)
 * [Node.js](https://nodejs.org)
 * [React](https://reactjs.org)
+* [React Native](https://reactnative.dev/)
 * [Ejemplos de .gitignore](https://github.com/github/gitignore)
 
 ## Trabajos Prácticos
 
 Dominio: https://github.com/unq-ui/tiktok-model
 
-* [TP1 » Desktop](TPs/2022s2/TP1-Arena.md)
-* [TP2 » API](TPs/2022s2/TP2-API.md)
-* [TP3 » Web](TPs/2022s2/TP3-WEB.md)
+* [TP1 » API](TPs/2022s2/TP1-API.md)
+* [TP2 » Web](TPs/2022s2/TP2-WEB.md)
+* [TP3 » Mobile](TPs/2022s2/TP3-MOBILE.md)
 
 ## Trabajo Final Integrador
 
-* [TP Integrador](TFIs/2022s2-TFI.md)
+* [TP Integrador](TFIs/2023s1-TFI.md)
 
 ## Guías Prácticas
 
 * [Práctica 1 » Modelado de Dominios](guias-practicas/practica1.md)
-* [Práctica 2 » Interfaces Desktop](guias-practicas/practica2.md)
-* [Práctica 3 » APIs REST](guias-practicas/practica3.md)
-
-## Apuntes
-
-* [Cookbook Arena » Guía de Inicio](apuntes/CookBook_Arena_Inicial.md)
+* [Práctica 2 » APIs REST](guias-practicas/practica3.md)
 
 ## Ejemplos
 
@@ -44,18 +39,6 @@ Dominio: https://github.com/unq-ui/tiktok-model
 * [Cajero Automático](https://github.com/unq-ui/ej-dominio-atm)
 * [Geo Localización](https://github.com/unq-ui/ej-dominio-geo)
 * [TV Shows](https://github.com/unq-ui/ej-dominio-tv-shows)
-
-### Desktop
-
-* [Cajero Automático](https://github.com/unq-ui/ej-desktop-atm)
-* [Conversor](https://github.com/unq-ui/ej-desktop-converter)
-* [Geo Localización](https://github.com/unq-ui/ej-desktop-geo)
-* [Phone](https://github.com/unq-ui/ej-desktop-phone)
-* [Time Counter](https://github.com/unq-ui/ej-desktop-time-counter)
-* [TV Shows](https://github.com/unq-ui/ej-desktop-tv-shows)
-* [Twitter](https://github.com/unq-ui/ej-desktop-twitter)
-* [Unquify](https://github.com/unq-ui/ej-desktop-unquify)
-* [ToDo List](https://github.com/unq-ui/ej-desktop-ToDoList)
 
 ### API REST
 
@@ -94,31 +77,3 @@ Dominio: https://github.com/unq-ui/tiktok-model
 * [Kotlin Domain](ejemplos/pom.kotlin.domain.xml)
 * [Kotlin Arena](ejemplos/pom.kotlin.arena.xml)
 * [Kotlin Javalin](ejemplos/pom.kotlin.javalin.xml)
-
-## Desktop » Arena
-
-### Vm arguments
-
-```bash
--Djava.system.class.loader=org.uqbar.apo.APOClassLoader
-```
-
-## Aplicación Web » ReactJS
-
-Primero es necesario instalar [Node.js](https://nodejs.org/en/download/) según su SO.
-
-Una vez instalado ir al directorio donde va a estar el proyecto y ejecutar:
-
-```bash
-npx create-react-app mi-proyecto-web
-cd mi-proyecto-web
-npm start
-```
-
-Comandos _npm_ que vienen por default:
-
-* `npm start`: Levanta la aplicación en (generalmente) localhost:3000
-* `npm test`: Corre los tests (generalmente en modo _watcher_)
-* `npm build`: Construye la aplicación en _modo production_ y guarda los archivos
-               en el directorio `./dist`
-* `npm eject`: Quita las configuraciones default de react. No se recomienda utilizarlo.
