@@ -5,7 +5,7 @@
 ## Info útil
 
 * [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vQCeKnPeFR-Y08CXfcANBo_AgwTkSG_XAGeGUbwqfQTwsB0rznMVT2aMGtbveRaC75mpM_A-teIkjGp/pubhtml?gid=1387586583&single=true)
-* [Entrega TFI]()
+* Entrega TFI
 * [Clases](Clases.md)
 * [Calendario](Calendar.md)
 * [Kotlin by example](https://play.kotlinlang.org/byExample/overview)
@@ -19,12 +19,12 @@
 
 Dominio: https://github.com/unq-ui/tiktok-model
 * [TP1 » API](TPs/2023s1/TP1-API.md)
-* [TP2 » Web]()
-* [TP3 » Mobile]()
+* TP2 » Web
+* TP3 » Mobile
 
 ## Trabajo Final Integrador
 
-* [TP Integrador]()
+* TP Integrador
 
 ## Guías Prácticas
 
