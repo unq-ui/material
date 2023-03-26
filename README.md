@@ -18,7 +18,7 @@
 ## Trabajos Prácticos
 
 Dominio: https://github.com/unq-ui/tiktok-model
-* [TP1 » API](TPs/2023s1/TP1- API.md)
+* [TP1 » API](TPs/2023s1/TP1-API.md)
 * TP2 » Web
 * TP3 » Mobile
 
