@@ -4,8 +4,8 @@
 
 ## Info útil
 
-* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vQYoCGc0VTxICdwuFdCJ6oVci6KfrofOuHq-3r5uUHovoR1dCD9f_uKYCoLXNddX7M7RxabSOwUxj7O/pubhtml?gid=1387586583&single=true)
-* [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vQYoCGc0VTxICdwuFdCJ6oVci6KfrofOuHq-3r5uUHovoR1dCD9f_uKYCoLXNddX7M7RxabSOwUxj7O/pubhtml?gid=394499309&single=true)
+* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vQCeKnPeFR-Y08CXfcANBo_AgwTkSG_XAGeGUbwqfQTwsB0rznMVT2aMGtbveRaC75mpM_A-teIkjGp/pubhtml?gid=1387586583&single=true)
+* [Entrega TFI]()
 * [Clases](Clases.md)
 * [Calendario](Calendar.md)
 * [Kotlin by example](https://play.kotlinlang.org/byExample/overview)
@@ -18,14 +18,13 @@
 ## Trabajos Prácticos
 
 Dominio: https://github.com/unq-ui/tiktok-model
-
-* [TP1 » API](TPs/2022s2/TP1-API.md)
-* [TP2 » Web](TPs/2022s2/TP2-WEB.md)
-* [TP3 » Mobile](TPs/2022s2/TP3-MOBILE.md)
+* [TP1 » API](TPs/2023s1/TP1-API.md)
+* [TP2 » Web]()
+* [TP3 » Mobile]()
 
 ## Trabajo Final Integrador
 
-* [TP Integrador](TFIs/2023s1-TFI.md)
+* [TP Integrador]()
 
 ## Guías Prácticas
 
