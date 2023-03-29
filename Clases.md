@@ -3,7 +3,8 @@
 ## 15/03 - 16/03
 
 - Teórica: Presentación / Introducción a UI
-  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vREsqskUm42wABAimfkdB-GYq0yGIY1DHn3nYAEUJQX4PsoXilJvPGhwAcOFE46--WG00cCsVUtMaxH/pub?start=false&loop=false&delayms=3000)
+  * [Slides - presentacion](https://docs.google.com/presentation/d/e/2PACX-1vREsqskUm42wABAimfkdB-GYq0yGIY1DHn3nYAEUJQX4PsoXilJvPGhwAcOFE46--WG00cCsVUtMaxH/pub?start=false&loop=false&delayms=3000)
+  * [Slides - kotlin](https://docs.google.com/presentation/d/e/2PACX-1vS3W9pmSGp5ra8Bb1jao42fwQB_SBAeqhe3E9czIZdlAZfMT9XaQm1UcoxdzvWqq8JK8cBl5G4MHfun/pub?start=false&loop=false&delayms=3000)
   * [Clase grabada](https://youtu.be/yP7lTOgjdZE)
 - Práctica: Intro a Kotlin y modelado de dominios
   * [Instalacion de Intellij y jdk](https://youtu.be/ekmu9tCEapg)
@@ -12,8 +13,14 @@
 
 ## 22/03 - 23/03
 
-- Teórica: MVC | MCP | MVVM | Arena (Arena es legacy para este cuatrimestre)
-  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQbnLQYNdoy_8SnWtT2gBqDVZyuyBN3F3wuCtgGq3gAwFc4zT-kM9oRDyEMyGl0IbqqUqWBlrWXQhBx/pub?start=false&loop=false&delayms=60000)
-  * [Clase grabada](https://youtu.be/IUi-zk9_Nhw)
+- Teórica: MVC | MCP | MVVM
+  * [Slides - patrones](https://docs.google.com/presentation/d/e/2PACX-1vQbnLQYNdoy_8SnWtT2gBqDVZyuyBN3F3wuCtgGq3gAwFc4zT-kM9oRDyEMyGl0IbqqUqWBlrWXQhBx/pub?start=false&loop=false&delayms=60000)
+  * [Slides - Api](https://docs.google.com/presentation/d/e/2PACX-1vS2a-M8kHLrxznfrVt6uAuFIqsWGHmSqTnozSXuPSQeNleSx6OLN9292JETXWMPCDu4m-TTAtgrfuO4/pub?start=false&loop=false&delayms=3000)
+  * [Clase grabada](https://youtu.be/IUi-zk9_Nhw) (clase vieja)
 - Práctica: 
   * [Practica API](https://github.com/unq-ui/material/blob/master/guias-practicas/practica3.md)
+
+## 29/03 - 30/03
+
+- Teórica: Api web auth
+  * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSnIAbkK_5vFTvwRxOHSZSMDiQ84SIZcZSKQWEivKKK_n3vC417u3xp_oCN3IZfP-EUa5clBsOUy1cL/pub?start=false&loop=false&delayms=3000)
