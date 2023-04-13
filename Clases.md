@@ -24,3 +24,11 @@
 
 - Teórica: Api web auth
   * [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSnIAbkK_5vFTvwRxOHSZSMDiQ84SIZcZSKQWEivKKK_n3vC417u3xp_oCN3IZfP-EUa5clBsOUy1cL/pub?start=false&loop=false&delayms=3000)
+
+
+## 12/04 - 13/04
+
+- Teórica: Js y Html,css y bootstrap
+  * [Slides JS](https://docs.google.com/presentation/d/e/2PACX-1vRYAQQTIhnW5z3p5Uj4Im-ctBTP15vn3C7qxiDG66JWlEoOaD2eUEzxp1RVpA0QIrnwkRIrw8rQ_K_-/pub?start=false&loop=false&delayms=3000)
+  * [Slides Html,css y bootstrap](https://docs.google.com/presentation/d/e/2PACX-1vRq8YEsg3Xim-Vzv3AJPXBP7gpJ79uaLv97iCF1nxUUkcJWFhIC80gEHNwnEYaRhnHayeYkAOc07fob/pub?start=false&loop=false&delayms=3000)
+
