@@ -32,3 +32,8 @@
   * [Slides JS](https://docs.google.com/presentation/d/e/2PACX-1vRYAQQTIhnW5z3p5Uj4Im-ctBTP15vn3C7qxiDG66JWlEoOaD2eUEzxp1RVpA0QIrnwkRIrw8rQ_K_-/pub?start=false&loop=false&delayms=3000)
   * [Slides Html,css y bootstrap](https://docs.google.com/presentation/d/e/2PACX-1vRq8YEsg3Xim-Vzv3AJPXBP7gpJ79uaLv97iCF1nxUUkcJWFhIC80gEHNwnEYaRhnHayeYkAOc07fob/pub?start=false&loop=false&delayms=3000)
 
+## 19/04 - 20/04
+
+- Teórica: Dom y react
+  * [Slides DOM](https://docs.google.com/presentation/d/e/2PACX-1vRsgc9jTvLsdNswzYRZ3q90kAhW8ZMFIyZMoEEoIluOTLjR51_ifvauXhmhBa4OYAEzu1XOWPutKy8q/pub?start=false&loop=false&delayms=3000)
+  * [Slides React](https://docs.google.com/presentation/d/e/2PACX-1vRuug-z19MxzbohcWrr6WjaM2KdlAR26GwYKbeg38zc0fvvmdyoYqGkrDoB6PAlFYjdr8ndt4NfrS55/pub?start=false&loop=false&delayms=3000)
