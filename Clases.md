@@ -37,3 +37,8 @@
 - Teórica: Dom y react
   * [Slides DOM](https://docs.google.com/presentation/d/e/2PACX-1vRsgc9jTvLsdNswzYRZ3q90kAhW8ZMFIyZMoEEoIluOTLjR51_ifvauXhmhBa4OYAEzu1XOWPutKy8q/pub?start=false&loop=false&delayms=3000)
   * [Slides React](https://docs.google.com/presentation/d/e/2PACX-1vRuug-z19MxzbohcWrr6WjaM2KdlAR26GwYKbeg38zc0fvvmdyoYqGkrDoB6PAlFYjdr8ndt4NfrS55/pub?start=false&loop=false&delayms=3000)
+
+## 24/05
+
+- Teoria: ReactNative
+  * [Slides RN](https://docs.google.com/presentation/d/e/2PACX-1vQkxRsgN1RzHihtuXL6OxgsxYh7nSuoL2gqqchh6nMLOfbhMNgysZEhxfqzdeb6z_A2Ewoqooj9PABw/pub?start=false&loop=false&delayms=60000)
