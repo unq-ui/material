@@ -24,7 +24,7 @@ Dominio: https://github.com/unq-ui/twitter-model
 
 ## Trabajo Final Integrador
 
-* TP Integrador
+* [TP Integrador](TFIs/2023s1-TFI.md)
 
 ## Guías Prácticas
 
