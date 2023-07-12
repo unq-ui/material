@@ -5,7 +5,7 @@
 ## Info útil
 
 * [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vQCeKnPeFR-Y08CXfcANBo_AgwTkSG_XAGeGUbwqfQTwsB0rznMVT2aMGtbveRaC75mpM_A-teIkjGp/pubhtml?gid=1387586583&single=true)
-* Entrega TFI
+* [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vQCeKnPeFR-Y08CXfcANBo_AgwTkSG_XAGeGUbwqfQTwsB0rznMVT2aMGtbveRaC75mpM_A-teIkjGp/pubhtml?gid=394499309&single=true)
 * [Clases](Clases.md)
 * [Calendario](Calendar.md)
 * [Kotlin by example](https://play.kotlinlang.org/byExample/overview)
