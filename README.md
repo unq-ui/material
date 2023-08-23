@@ -17,14 +17,15 @@
 
 ## Trabajos Prácticos
 
-Dominio: https://github.com/unq-ui/twitter-model
-* [TP1 » API](TPs/2023s1/TP1-API.md)
-* TP2 » Web
-* TP3 » Mobile
+Dominio: <https://github.com/unq-ui/steam-model>
+
+* [TP1 » API](2023s2/TP1-API.md)
+* [TP2 » Web](2023s2/TP2-Web.md)
+* [TP3 » Mobile](2023s2/TP3-Mobile.md)
 
 ## Trabajo Final Integrador
 
-* [TP Integrador](TFIs/2023s1-TFI.md)
+* [TP Integrador](TFIs/2023s2-TFI.md)
 
 ## Guías Prácticas
 
