@@ -19,9 +19,9 @@
 
 Dominio: <https://github.com/unq-ui/steam-model>
 
-* [TP1 » API](2023s2/TP1-API.md)
-* [TP2 » Web](2023s2/TP2-Web.md)
-* [TP3 » Mobile](2023s2/TP3-Mobile.md)
+* [TP1 » API](TPs/2023s2/TP1-API.md)
+* [TP2 » Web](TPs/2023s2/TP2-Web.md)
+* [TP3 » Mobile](TPs/2023s2/TP3-Mobile.md)
 
 ## Trabajo Final Integrador
 
