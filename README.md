@@ -4,8 +4,8 @@
 
 ## Info útil
 
-* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vQh6bqatIlRMulk14nCj8TLXu_zIkdS0P_Y70tP5jN-OpB7SlnMcg4SKgK01XuJTP2zMVw8mUVAp-QB/pubhtml?gid=1387586583&single=true)
-* [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vQh6bqatIlRMulk14nCj8TLXu_zIkdS0P_Y70tP5jN-OpB7SlnMcg4SKgK01XuJTP2zMVw8mUVAp-QB/pubhtml?gid=394499309&single=true)
+* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vS4bBMDKLYaNKQRsaaBJjIAM1rK0zExjobqznmY2m48n10n5p_sDC5Qp1g9__oljrS_Eyb7CRiQmBXo/pubhtml?gid=1387586583&single=true)
+* [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vS4bBMDKLYaNKQRsaaBJjIAM1rK0zExjobqznmY2m48n10n5p_sDC5Qp1g9__oljrS_Eyb7CRiQmBXo/pubhtml?gid=394499309&single=true)
 * [Clases](Clases.md)
 * [Calendario](Calendar.md)
 * [Kotlin by example](https://play.kotlinlang.org/byExample/overview)
@@ -17,15 +17,15 @@
 
 ## Trabajos Prácticos
 
-Dominio: <https://github.com/unq-ui/steam-model>
+Dominio: <https://github.com/unq-ui/tiktok-model>
 
-* [TP1 » API](TPs/2023s2/TP1-API.md)
-* [TP2 » Web](TPs/2023s2/TP2-Web.md)
-* [TP3 » Mobile](TPs/2023s2/TP3-Mobile.md)
+* [TP1 » API](TPs/2024s1/TP1-API.md)
+* [TP2 » Web](TPs/2024s1/TP2-Web.md)
+* [TP3 » Mobile](TPs/2024s1/TP3-Mobile.md)
 
 ## Trabajo Final Integrador
 
-* [TP Integrador](TFIs/2023s2-TFI.md)
+* [TP Integrador](TFIs/2024s1-TFI.md)
 
 ## Guías Prácticas
 
