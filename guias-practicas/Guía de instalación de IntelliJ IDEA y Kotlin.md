@@ -32,9 +32,7 @@ Si no tenemos una JDK instalada en nuestro equipo, debemos instalarla. IntelliJ 
 
 ![Instalacion JDK](./_img_intellij/Screenshot%202023-08-17%20at%2017.24.15.png)
 
-Recomendamos instalar la JDK 1.8, ya que es la version mas estable y usada. Tambien recomendamos utilizar la implementacion de Amazon, llamada Corretto.
-
-Verificar que sea la version 1.8 y no la version 18.
+Necesitamos instalar la JDK 11, para poder utilizar Javalin para la creacion de la API.
 
 ![Instalacion JDK](./_img_intellij/Screenshot%202023-08-17%20at%2017.24.49.png)
 
