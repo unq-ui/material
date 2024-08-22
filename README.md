@@ -29,6 +29,7 @@ Dominio: <https://github.com/unq-ui/mercadolibre-model>
 
 ## Guías Prácticas
 
+* [Instalacion IntelliJ y proyecto Kotlin](guias-practicas/Guía\ de\ instalación\ de\ IntelliJ\ IDEA\ y\ Kotlin.md)
 * [Práctica 1 » Modelado de Dominios](guias-practicas/practica1.md)
 * [Práctica 2 » APIs REST](guias-practicas/practica3.md)
 
