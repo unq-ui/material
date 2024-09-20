@@ -10,6 +10,13 @@ Se brinda el siguiente ejemplo de la aplicacion: [Figma](https://www.figma.com/d
 Se puede hacer cambios en la api, estos cambios TIENEN que estar aclarados y justificados en un README
 ```
 
+## Importante
+
+* No se puede hacer uso de **Contextos**.
+* No se pueden definir hooks propios (aka custom hooks).
+
+Si se utilizan lo antes mencionado, el tp estara desaprobado y **no** se realizara la correccion.
+
 ## Comportamiento comun
 
 ### Navbar
@@ -88,3 +95,8 @@ En esta pagina tenemos que poder agregar un producto, al crear el producto me ti
 ### [Editar producto](https://www.figma.com/design/oauLoRKzswvzectxA7Juhn/MercadoLibre?node-id=24-1483&t=NsCL3HIugv7d3Xsf-4)
 
 En esta pagina tenemos que poder editar un producto, al terminar la edicion del producto me tiene que llevar a la pagina de este producto.
+
+### [Compra](https://www.figma.com/design/oauLoRKzswvzectxA7Juhn/MercadoLibre?node-id=178-1437&t=7ksUB0zfmF7F6AHf-4)
+
+En esta pagina se tendra que ver el monto de la compra y los inputs para realizar una compra. Al terminar la operación te tendra que llevar a la home.
+
