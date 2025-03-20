@@ -1,37 +1,37 @@
 # Calendario
-- `14/08` Día de quilmes
-- `15/08` Sin clase
-- `21/08` Intro Materia - HTTP - API - (Si sobra tiempo: Kotlin - Maven)
-- `22/08` Instalar IntelliJ - Ejercicio Kotlin - Config proyecto Javalin - Ejercicio Javalin - Presentación TP 1 
-- `28/08` Sessions - Auth JWT
-- `29/08` Consultas TP
-- `04/09` Consultas TP
-- `05/09` Entrega TP1
-- `11/09` ¿Programación Funcional? - ¿Intro Apps Web? - Javascript - HTML / CSS / Bootstrap
-- `12/09` Ambiente Javascript / NVM - Ejercicio JS / Booststrap
-- `18/09` DOM Manipulation - Ejercicio: ej-javascript-dom - JS DOM / React sin JSX / React con JSX React POSTA
-- `19/09` Create-React-App - Ejercicio React - Presentación TP2
-- `25/09` React: Componentes / JSX - State / Binding - Hooks - Routing
-- `26/09` Ejercicio React con Hooks
-- `02/10` AJAX / SPA
-- `03/10` Ejercicio: ej-web-ajax - Ejercicio React usando API - Auth JWT contra API - Local Storage - Consultas a API con Axios
-- `09/10` Consultas TP
-- `10/10` Consultas TP
-- `16/10` Consultas TP
-- `17/10` Entrega TP 2
-- `23/10` React Native: Diff con React - Presentacion TP 3
-- `24/10` Consultas TP
-- `30/10` Requests y navegación
-- `31/10` Ejercicio / Consultas TP
-- `06/11` Consultas TP
-- `07/11` Consultas TP
-- `13/11` Consultas TP
-- `14/11` Consultas TP
-- `20/11` Consultas TP
-- `21/11` Entrega TP 3 - Presentacion TFI
-- `27/11` Consultas TP
-- `28/11` Consultas TP
-- `04/12` Consultas TP
-- `05/12` Consultas TP
-- `11/12` Fecha Límite de Entregas - Recuperatorios TPs - Trabajo Final Integrador
-- `12/12` NO HAY CLASE / Cierre de actas
+- `19/03` Primer clase - Presentación Materia
+- `20/03` VSCode - Node - NPM
+- `26/03` Presentación TP 1 - Sessions - Auth JWT
+- `27/03` Consultas TP
+- `02/04` Feriado
+- `03/04` Consultas TP
+- `09/04` Consultas TP
+- `10/04` **Entrega TP1**
+- `16/04` ¿Programación Funcional? - ¿Intro Apps Web? - Javascript - HTML / CSS / Bootstrap
+- `17/04` Ejercicio JS - Practica Bootstrap
+- `23/04` DOM Manipulation - Ejercicio: ej-javascript-dom - JS DOM / React sin JSX / React con JSX React POSTA
+- `24/04` Create Vite App - Ejercicio React - Presentación TP2
+- `30/04` React: Componentes / JSX - State / Binding - Hooks - Routing
+- `01/05` Ejercicio React con Hooks
+- `07/05` AJAX / SPA
+- `08/05` Feriado
+- `14/05` Consultas TP
+- `15/05` Ejercicio React usando API - Auth JWT contra API - Local Storage - Consultas a API con Axios
+- `21/05` Consultas TP
+- `22/05` Consultas TP
+- `28/05` Consultas TP
+- `29/05` **Entrega TP 2**
+- `04/06` React Native: Diff con React - Presentación TP 3
+- `05/06` Consultas TP
+- `11/06` Consultas TP
+- `12/06` Consultas TP
+- `18/06` Consultas TP
+- `19/06` Consultas TP
+- `25/06` Consultas TP
+- `26/06` **Entrega TP 3** - Presentacion TFI
+- `02/07` Consultas TP
+- `03/07` Consultas TP
+- `09/07` Feriado
+- `10/07` Consultas TP
+- `16/07` **Fecha Límite de Entregas - Recuperatorios TPs - Trabajo Final Integrador**
+- `17/07` NO HAY CLASE / Cierre de actas
