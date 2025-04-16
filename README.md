@@ -4,7 +4,7 @@
 
 ## Info útil
 
-* [Notas](https://docs.google.com/spreadsheets/d/1Ya1hnmaLUqg0L1xt02hH-G5ls9tglFIm_T2p-Lw3qEU/pubhtml?gid=1387586583&single=true)
+* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vTTVVmTDI0a_l_tTjQqy8APxnH42-9ngEsEGfVKQq6Wai7wqogea-Bx6aUoNUl2FcfAvzD6RJTVS6o5/pubhtml?gid=1387586583&single=true)
 * [Entrega TFI](https://docs.google.com/spreadsheets/d/1Ya1hnmaLUqg0L1xt02hH-G5ls9tglFIm_T2p-Lw3qEU/pubhtml?gid=394499309&single=true)
 * [Clases](Clases.md)
 * [Calendario](Calendar.md)
