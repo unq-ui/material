@@ -14,7 +14,7 @@
 - `30/04` React: Componentes / JSX - State / Binding - Hooks - Routing
 - `01/05` Ejercicio React con Hooks
 - `07/05` AJAX / SPA
-- `08/05` Feriado
+- `08/05` Consultas TP
 - `14/05` Consultas TP
 - `15/05` Ejercicio React usando API - Auth JWT contra API - Local Storage - Consultas a API con Axios
 - `21/05` Consultas TP
