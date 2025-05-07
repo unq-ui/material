@@ -9,6 +9,12 @@ Se brinda el siguiente ejemplo de la aplicacion: [Figma](https://www.figma.com/d
 Se puede hacer cambios en la api, estos cambios TIENEN que estar aclarados y justificados en un README
 ```
 
+## Importante
+
+* No se puede hacer uso de **Contextos**.
+* No se pueden definir hooks propios (aka custom hooks).
+
+Si se utilizan lo antes mencionado, el tp estara desaprobado y **no** se realizara la correccion.
 
 ## Comportamiento comun
 
