@@ -32,7 +32,6 @@ En esta pagina se tiene que mostrar la informacion del juego en cuestion.
 
 - se muestran los primeros 5 tags y despues un mostrar mas `more...`, que se espera que abra una modal con todos los tags que dispone el juego, si tiene menos de 5 tags no mostrar esta opcion.
 - Un boton de comprar el juego
-  - si el usuario **no** esta logueado llevarlo al login.
   - si el usuario esta logueado agregar el juego al carrito.
   - si el usuario ya compro este juego no tiene que tener el boton de compra. 
     - [Ejemplo con juego comprado sin review](https://www.figma.com/design/JtwYMUGxCtQfBjIxL31I8w/Gog?node-id=26-2267&t=1I8FiI5QIG7qB6cw-4)
