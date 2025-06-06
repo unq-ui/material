@@ -46,14 +46,10 @@ En esta pagina se tiene que mostrar la informacion del juego en cuestion.
 
 ### [Cart](https://www.figma.com/design/JtwYMUGxCtQfBjIxL31I8w/Gog?node-id=2451-40&t=3izFqX8mwjXmofuc-4)
 
-**Esta pagina no se puede acceder si no estas logueado**
-
 En esta pagina se muestran los juegos en el carrito y un resumen de cuanto tendrias que pagar
 [Ejemplo con juegos](https://www.figma.com/design/JtwYMUGxCtQfBjIxL31I8w/Gog?node-id=6018-849&t=3izFqX8mwjXmofuc-4)
 
 ### [Purchase](https://www.figma.com/design/JtwYMUGxCtQfBjIxL31I8w/Gog?node-id=6018-758&t=3izFqX8mwjXmofuc-4)
-
-**Esta pagina no se puede acceder si no estas logueado**
 
 En esta pagina se tiene que mostrar que juego vas a comprar y un formulario con los datos requeridos para hacer una compra.
 Al terminar la compra redireccionar a la libreria del usuario.
@@ -63,8 +59,6 @@ Al terminar la compra redireccionar a la libreria del usuario.
 En esta pagina se tiene que mostrar lo que busco el usuario junto a los juegos que dieron como resultado.
 
 ### [Library](https://www.figma.com/design/JtwYMUGxCtQfBjIxL31I8w/Gog?node-id=2451-169&t=3izFqX8mwjXmofuc-4)
-
-**Esta pagina no se puede acceder si no estas logueado**
 
 En esta pagina se listan todos los juegos que el usuario compro.
 Y la opcion para desloguear al usuario.
