@@ -4,8 +4,8 @@
 
 ## Info útil
 
-* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vTTVVmTDI0a_l_tTjQqy8APxnH42-9ngEsEGfVKQq6Wai7wqogea-Bx6aUoNUl2FcfAvzD6RJTVS6o5/pubhtml?gid=1387586583&single=true)
-* [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vTTVVmTDI0a_l_tTjQqy8APxnH42-9ngEsEGfVKQq6Wai7wqogea-Bx6aUoNUl2FcfAvzD6RJTVS6o5/pubhtml?gid=394499309&single=true)
+* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vRuHYlc0j1MkhZ5p-fLf4EPm5wUlQ6MQSDaoZRuJDCSwKnD4dlGLF1qmf07RJqoKkZcPGOoXwZSocW3/pubhtml?gid=1387586583&single=true)
+* [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vRuHYlc0j1MkhZ5p-fLf4EPm5wUlQ6MQSDaoZRuJDCSwKnD4dlGLF1qmf07RJqoKkZcPGOoXwZSocW3/pubhtml?gid=1696741357&single=true)
 * [Clases](Clases.md)
 * [Calendario](Calendar.md)
 * [Node.js](https://nodejs.org)
