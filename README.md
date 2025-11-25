@@ -23,7 +23,7 @@ Dominio: <https://github.com/unq-ui/instagram-model-js>
 
 ## Trabajo Final Integrador
 
-* [TP Integrador](TFIs/2025s1-TFI.md)
+* [TP Integrador](TFIs/2025s2-TFI.md)
 
 ## Ejemplos
 
