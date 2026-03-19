@@ -12,6 +12,7 @@
 * [React](https://reactjs.org)
 * [React Native](https://reactnative.dev/)
 * [Ejemplos de .gitignore](https://github.com/github/gitignore)
+* [Guia de configuracion del Entorno de Desarrollo](https://github.com/unq-ui/material/blob/master/guias-practicas/guia-node-javascript.md)
 
 ## Trabajos Prácticos
 
