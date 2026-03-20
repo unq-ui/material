@@ -30,6 +30,7 @@ Dominio: <https://github.com/unq-ui/instagram-model-js>
 
 ### Javascript
 
+* [Ejercicios JavaScript](https://github.com/unq-ui/ejercicios-javascript)
 * [DOM Manipulation](https://github.com/unq-ui/ej-javascript-dom)
 * [Local Data](https://github.com/unq-ui/ej-javascript-local-data)
 * [Remote Data](https://github.com/unq-ui/ej-javascript-remote-data)
