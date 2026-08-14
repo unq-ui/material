@@ -11,3 +11,7 @@ Se debe armar los siguientes requests especificados en https://swaggers-virid.ve
 - Status Code 4xx en todo caso que se reciba un error por parte del sistema
 - Implementar esquemas de validacion para los endpoints que necesitan de informacion mediante un `body`
 - Separar responsabilidades en controladores
+- El token de sesión tiene vencimiento configurable
+- La configuración del proyecto tiene que estar definida en un `.env`
+- Si el proyecto no tiene el archivo `.env` este **NO** tendria que levantar
+  
