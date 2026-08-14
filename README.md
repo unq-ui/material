@@ -4,8 +4,8 @@
 
 ## Info útil
 
-* [Notas](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vQbLzawWun2Bd8zo9ei3PFjUDYHUvrjR8gC3qBGkc7m6rkHZK6wndNvqpllqLp8ebF8pLUR7IbQCI4w/pubhtml?gid=1387586583&single=true)
-* [Entrega TFI](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vQbLzawWun2Bd8zo9ei3PFjUDYHUvrjR8gC3qBGkc7m6rkHZK6wndNvqpllqLp8ebF8pLUR7IbQCI4w/pubhtml?gid=394499309&single=true)
+* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vQz_HkX6fu5GExdBwvSQ4xUyOZt6XBm_RlDzARc-93vdaThEsDctGXsbEszU1rPYNvIKqcyGvHc8_QB/pubhtml?gid=1387586583&single=true)
+* [Entrega TFI](https://docs.google.com/spreadsheets/d/e/2PACX-1vQz_HkX6fu5GExdBwvSQ4xUyOZt6XBm_RlDzARc-93vdaThEsDctGXsbEszU1rPYNvIKqcyGvHc8_QB/pubhtml?gid=394499309&single=true)
 * [Clases](Clases.md)
 * [Calendario](Calendar.md)
 * [Node.js](https://nodejs.org)
@@ -16,15 +16,15 @@
 
 ## Trabajos Prácticos
 
-Dominio: <https://github.com/unq-ui/instagram-model-js>
+Dominio: <https://github.com/unq-ui/mercadolibre-model-js>
 
-* [TP1 » API](TPs/2026s1/TP1-API.md)
-* [TP2 » Web](TPs/2026s1/TP2-Web.md)
-* [TP3 » Mobile](TPs/2026s1/TP3-Mobile.md)
+* [TP1 » API](TPs/2026s2/TP1-API.md)
+* [TP2 » Web](TPs/2026s2/TP2-Web.md)
+* [TP3 » Mobile](TPs/2026s2/TP3-Mobile.md)
 
 ## Trabajo Final Integrador
 
-* [TP Integrador](TFIs/2026s1-TFI.md)
+* [TP Integrador](TFIs/2026s2-TFI.md)
 
 ## Ejemplos
 
