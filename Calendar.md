@@ -1,40 +1,38 @@
 # Calendario
 
-- `18/03` Intro Materia - Intro UI - JS - Stateless vs Stateful - HTTP - API REST
-- `19/03` Instalar VSCode - Poder correr JS (NVM) - Configuración de proyectos JS - Ejercicio JS
-- `25/03` Auth JWT - Testing REST: ej-api-twitter - **Presentación TP1**
-- `26/03` Consultas TP
-- `01/04` Consultas TP
-- `02/04` Consultas TP
-- `08/04` Consultas TP
-- `09/04` **Entrega TP1**
-- `15/04` ¿Programación Funcional? - ¿Intro Apps Web? - Javascript - HTML / CSS / Bootstrap
-- `16/04` Ejercicio html/css
-- `22/04` DOM Manipulation - Ejercicio: ej-javascript-dom - JS DOM / React sin JSX / React con JSX - React POSTA
-- `23/04` Vite (Create-React-App está deprecado) - **Presentación TP2**
-- `29/04` React: Componentes / JSX - State / Binding - Hooks - Routing
-- `30/04` Ejercicio React: Ejercicio con Hooks
-- `06/05` AJAX / SPA - Ejercicio: ej-web-ajax
-- `07/05` Consultas
-- `13/05` Consultas
-- `14/05` Ejercicio React usando API - Auth JWT contra API - Local Storage - Consultas a API con Axios
-- `20/05` Consultas
-- `21/05` Consultas
-- `27/05` Consultas
-- `28/05` **Entrega TP2**
-- `03/06` RN diferencias con React - **Presentación TP3**
-- `04/06` Ejercicio / Consultas / RN
-- `10/06` Request y navegación
-- `11/06` Ejercicio / Consultas / RN
-- `17/06` Consultas
-- `18/06` Consultas
-- `24/06` Consultas
-- `25/06` **Entrega TP3** - **Presentación Trabajo Final Integrador**
-- `01/07` Consultas
-- `02/07` Consultas
-- `08/07` Consultas
-- `09/07` Consultas
-- `15/07` **Fecha Límite de Entregas - Recuperatorios TPs - Trabajo Final Integrador**
-- `16/07` NO HAY CLASE / Cierre de actas
-- `22/07` NO HAY CLASE / Cierre de actas
-- `23/07` NO HAY CLASE / Cierre de actas
+- `12/08` Intro Materia - Intro UI - JS - Stateless vs Stateful - HTTP - API REST
+- `13/08` Instalar VSCode - Poder correr JS (NVM) - Configuración de proyectos JS - Ejercicio JS
+- `19/08` Auth JWT - Testing REST: ej-api-twitter - **Presentación TP1**
+- `20/08` Consultas TP
+- `26/08` Consultas TP
+- `27/08` Consultas TP
+- `02/09` Consultas TP
+- `03/09` **Entrega TP1**
+- `09/09` ¿Programación Funcional? - ¿Intro Apps Web? - Javascript - HTML / CSS / Bootstrap
+- `10/09` Ejercicio html/css
+- `16/09` DOM Manipulation - Ejercicio: ej-javascript-dom - JS DOM / React sin JSX / React con JSX - React POSTA
+- `17/09` Vite (Create-React-App está deprecado) - **Presentación TP2**
+- `23/09` React: Componentes / JSX - State / Binding - Hooks - Routing
+- `24/09` Ejercicio React: Ejercicio con Hooks
+- `30/09` AJAX / SPA - Ejercicio: ej-web-ajax
+- `01/10` Consultas
+- `07/10` Consultas
+- `08/10` Ejercicio React usando API - Auth JWT contra API - Local Storage - Consultas a API con Axios
+- `14/10` Consultas
+- `15/10` Consultas
+- `21/10` Consultas
+- `22/10` **Entrega TP2**
+- `28/10` RN diferencias con React - **Presentación TP3**
+- `29/10` Ejercicio / Consultas / RN
+- `04/11` Request y navegación
+- `05/11` Ejercicio / Consultas / RN
+- `11/11` Consultas
+- `12/11` Consultas
+- `18/11` Consultas
+- `19/11` **Entrega TP3** - **Presentación Trabajo Final Integrador**
+- `25/11` Consultas
+- `26/11` Consultas
+- `02/12` **Fecha Límite de Entregas - Recuperatorios TPs - Trabajo Final Integrador**
+- `03/12` NO HAY CLAS
+- `09/12` Clase especial y cierre
+- `10/12` Cierre de actas
